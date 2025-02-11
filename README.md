@@ -1,2 +1,1 @@
-# myProject
-#New line of code
+I have created this github repository as a part of a Phylogenetics Analysis of Molecular Data class. Hopefully after completing the project someone who is not an expert in the field can run a pipeline to reproduce the output at least that is the objective of the project. 
