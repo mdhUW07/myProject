@@ -5,5 +5,6 @@ FASTA format file and the dataset is about
 the mitochondrial cytochrome b gene 
 sequences and are 373 base pairs in length
 and were collected from 8 different beehives
-in Antalya.
+in Antalya. Because the files are in FASTA format, 
+I do not believe a quality control step is necessary.
 
