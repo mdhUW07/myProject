@@ -1,3 +1,9 @@
-Create Github class respository assignment
+#Create Github class respository assignment
+120 mitochondrial cyt b sequences of B. terrestris dalmatinus.
+The files are in multiple sequences
+FASTA format file and the dataset is about
+the mitochondrial cytochrome b gene 
+sequences and are 373 base pairs in length
+and were collected from 8 different beehives
+in Antalya.
 
-The ionotropic glutamate receptor gene family has been widely studied in animals and is determined to be important in excitatory neurotransmission and other neuronal processes. This gene has been identified in Arabidopsis thaliana, an organism that lacks a central nervous system. A preliminary phylogenetic analysis provides evidence that the family can be split into 3 clades of genes with each clad having a common ancestral gene or a least a direct lineage. The master gene file GLR.fasta consists of 17 concatenated fasta files downloaded from the national library of medicine national center for biotechnology information. This file is used as an input for clustaw multiple sequence alignment. 
