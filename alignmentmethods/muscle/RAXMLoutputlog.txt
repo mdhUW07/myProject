@@ -1,0 +1,424 @@
+(phyluce) michael-hall@michael-hall-T590:~/Desktop/myProject/alignmentmethods/muscle$ raxml-ng --all -msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model LG+G8+F --tree pars{10} --bs-trees 200
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz, 4 cores, 15 GB RAM
+
+RAxML-NG was called at 13-Feb-2025 16:07:28 as follows:
+
+raxml-ng --all -msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model LG+G8+F --tree pars{10} --bs-trees 200
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): parsimony (10)
+  bootstrap replicates: parsimony (200)
+  random seed: 1739484448
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+[00:00:00] Loaded alignment with 120 taxa and 373 sites
+
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_26 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_28 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_4 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_24 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_6 are exactly identical!
+WARNING: Sequences Phaselis_16 and Phaselis_2 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_24 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_26 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_4 are exactly identical!
+WARNING: Sequences Aksu_10 and Aksu_12 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_118 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_92 are exactly identical!
+WARNING: Sequences Firm_32 and Firm_58 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_18 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_20 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_6 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_2 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_26 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_28 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_28 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_30 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_6 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_8 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_24 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_26 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_6 are exactly identical!
+WARNING: Sequences Firm_2 and Firm_28 are exactly identical!
+WARNING: Sequences Firm_78 and Firm_82 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_2 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_27 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_28 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_29 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_3 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_30 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_7 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_4 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_5 are exactly identical!
+WARNING: Sequences Firm_70 and Firm_86 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_18 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_4 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_23 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_7 are exactly identical!
+WARNING: Sequences Demre_7 and Demre_8 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_7 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_26 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_24 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_145 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_146 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_29 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_6 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_4 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_22 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_20 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_19 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_18 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_17 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_16 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_13 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_1 are exactly identical!
+WARNING: Duplicate sequences found: 100
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.reduced.phy
+
+WARNING: State 1 has very low frequency (0.000000000)!
+WARNING: State 2 has very low frequency (0.000000000)!
+WARNING: State 3 has very low frequency (0.000000000)!
+WARNING: State 5 has very low frequency (0.000000000)!
+WARNING: State 6 has very low frequency (0.000000000)!
+WARNING: State 8 has very low frequency (0.000000000)!
+WARNING: State 9 has very low frequency (0.000000000)!
+WARNING: State 10 has very low frequency (0.000000000)!
+WARNING: State 11 has very low frequency (0.000000000)!
+WARNING: State 12 has very low frequency (0.000000000)!
+WARNING: State 13 has very low frequency (0.000000000)!
+WARNING: State 14 has very low frequency (0.000000000)!
+WARNING: State 15 has very low frequency (0.000000000)!
+WARNING: State 17 has very low frequency (0.000000000)!
+WARNING: State 18 has very low frequency (0.000000000)!
+WARNING: State 19 has very low frequency (0.000000000)!
+
+WARNING: Some states have very low frequencies, which might lead to numerical issues!
+
+Alignment comprises 1 partitions and 35 patterns
+
+Partition 0: noname
+Model: LG+FC+G8m
+Alignment sites / patterns: 373 / 35
+Gaps: 0.00 %
+Invariant sites: 89.01 %
+
+
+NOTE: Binary MSA file created: Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.rba
+
+Parallelization scheme autoconfig: 4 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 parsimony starting tree(s) with 120 taxa
+Parallel parsimony with 4 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 35 / 5600
+[00:00:00] Data distribution: max. searches per worker: 53
+
+Starting ML tree search with 10 distinct starting trees
+
+[00:00:13] [worker #3] ML tree search #4, logLikelihood: -928.307514
+[00:00:15] [worker #0] ML tree search #1, logLikelihood: -934.165807
+[00:00:15] [worker #2] ML tree search #3, logLikelihood: -926.948917
+[00:00:16] [worker #1] ML tree search #2, logLikelihood: -941.745298
+[00:00:29] [worker #3] ML tree search #8, logLikelihood: -924.573176
+[00:00:31] [worker #0] ML tree search #5, logLikelihood: -932.392517
+[00:00:32] [worker #1] ML tree search #6, logLikelihood: -924.573331
+[00:00:48] [worker #2] ML tree search #7, logLikelihood: -932.115110
+[00:00:51] [worker #0] ML tree search #9, logLikelihood: -924.573251
+[00:00:51] [worker #1] ML tree search #10, logLikelihood: -935.202401
+
+[00:00:51] ML tree search completed, best tree logLH: -924.573176
+
+[00:00:51] Starting bootstrapping analysis with 200 replicates.
+
+[00:01:07] [worker #3] Bootstrap tree #4, logLikelihood: -910.543757
+[00:01:12] [worker #0] Bootstrap tree #1, logLikelihood: -989.789277
+[00:01:16] [worker #1] Bootstrap tree #2, logLikelihood: -1102.522412
+[00:01:25] [worker #2] Bootstrap tree #3, logLikelihood: -905.950452
+[00:01:29] [worker #3] Bootstrap tree #8, logLikelihood: -909.999721
+[00:01:33] [worker #0] Bootstrap tree #5, logLikelihood: -835.843678
+[00:01:33] [worker #1] Bootstrap tree #6, logLikelihood: -801.647437
+[00:01:45] [worker #2] Bootstrap tree #7, logLikelihood: -847.893744
+[00:01:48] [worker #3] Bootstrap tree #12, logLikelihood: -969.191924
+[00:01:49] [worker #1] Bootstrap tree #10, logLikelihood: -814.749312
+[00:01:49] [worker #0] Bootstrap tree #9, logLikelihood: -976.086082
+[00:02:01] [worker #2] Bootstrap tree #11, logLikelihood: -995.138637
+[00:02:05] [worker #3] Bootstrap tree #16, logLikelihood: -920.129783
+[00:02:05] [worker #1] Bootstrap tree #14, logLikelihood: -1001.045824
+[00:02:06] [worker #0] Bootstrap tree #13, logLikelihood: -933.265616
+[00:02:17] [worker #2] Bootstrap tree #15, logLikelihood: -988.438756
+[00:02:23] [worker #3] Bootstrap tree #20, logLikelihood: -810.669466
+[00:02:24] [worker #0] Bootstrap tree #17, logLikelihood: -968.358597
+[00:02:26] [worker #1] Bootstrap tree #18, logLikelihood: -878.819370
+[00:02:36] [worker #0] Bootstrap tree #21, logLikelihood: -934.823258
+[00:02:41] [worker #1] Bootstrap tree #22, logLikelihood: -891.274252
+[00:02:45] [worker #2] Bootstrap tree #19, logLikelihood: -986.315120
+[00:02:49] [worker #3] Bootstrap tree #24, logLikelihood: -1045.185399
+[00:02:55] [worker #0] Bootstrap tree #25, logLikelihood: -866.964657
+[00:02:59] [worker #2] Bootstrap tree #23, logLikelihood: -816.457246
+[00:02:59] [worker #1] Bootstrap tree #26, logLikelihood: -904.267454
+[00:03:04] [worker #3] Bootstrap tree #28, logLikelihood: -973.453273
+[00:03:12] [worker #1] Bootstrap tree #30, logLikelihood: -975.091855
+[00:03:14] [worker #2] Bootstrap tree #27, logLikelihood: -957.459778
+[00:03:20] [worker #0] Bootstrap tree #29, logLikelihood: -976.415434
+[00:03:25] [worker #3] Bootstrap tree #32, logLikelihood: -995.209805
+[00:03:27] [worker #1] Bootstrap tree #34, logLikelihood: -769.153852
+[00:03:30] [worker #2] Bootstrap tree #31, logLikelihood: -1055.339302
+[00:03:35] [worker #0] Bootstrap tree #33, logLikelihood: -881.027874
+[00:03:40] [worker #3] Bootstrap tree #36, logLikelihood: -983.461074
+[00:03:41] [worker #1] Bootstrap tree #38, logLikelihood: -949.458688
+[00:03:47] [worker #2] Bootstrap tree #35, logLikelihood: -876.523493
+[00:03:55] [worker #0] Bootstrap tree #37, logLikelihood: -924.885038
+[00:03:59] [worker #1] Bootstrap tree #42, logLikelihood: -883.049596
+[00:04:00] [worker #3] Bootstrap tree #40, logLikelihood: -1053.290606
+[00:04:05] [worker #2] Bootstrap tree #39, logLikelihood: -874.752929
+[00:04:13] [worker #0] Bootstrap tree #41, logLikelihood: -976.581911
+[00:04:14] [worker #3] Bootstrap tree #44, logLikelihood: -1047.251485
+[00:04:15] [worker #1] Bootstrap tree #46, logLikelihood: -987.758626
+[00:04:21] [worker #2] Bootstrap tree #43, logLikelihood: -956.499648
+[00:04:27] [worker #3] Bootstrap tree #48, logLikelihood: -873.314835
+[00:04:30] [worker #1] Bootstrap tree #50, logLikelihood: -899.397437
+[00:04:32] [worker #0] Bootstrap tree #45, logLikelihood: -983.604501
+[00:04:34] [worker #2] Bootstrap tree #47, logLikelihood: -825.007806
+[00:04:47] [worker #0] Bootstrap tree #49, logLikelihood: -845.460479
+[00:05:00] [worker #3] Bootstrap tree #52, logLikelihood: -876.076129
+[00:05:02] [worker #2] Bootstrap tree #51, logLikelihood: -1049.628280
+[00:05:05] [worker #1] Bootstrap tree #54, logLikelihood: -909.359529
+[00:05:06] [worker #0] Bootstrap tree #53, logLikelihood: -1012.611444
+[00:05:14] [worker #3] Bootstrap tree #56, logLikelihood: -947.521975
+[00:05:22] [worker #1] Bootstrap tree #58, logLikelihood: -873.326001
+[00:05:23] [worker #2] Bootstrap tree #55, logLikelihood: -925.495344
+[00:05:24] [worker #0] Bootstrap tree #57, logLikelihood: -849.561326
+[00:05:33] [worker #3] Bootstrap tree #60, logLikelihood: -847.783185
+[00:05:37] [worker #2] Bootstrap tree #59, logLikelihood: -861.016720
+[00:05:38] [worker #0] Bootstrap tree #61, logLikelihood: -990.504103
+[00:05:46] [worker #1] Bootstrap tree #62, logLikelihood: -940.226160
+[00:05:46] [worker #3] Bootstrap tree #64, logLikelihood: -889.630342
+[00:05:53] [worker #0] Bootstrap tree #65, logLikelihood: -1031.830528
+[00:05:55] [worker #2] Bootstrap tree #63, logLikelihood: -894.247967
+[00:06:02] [worker #1] Bootstrap tree #66, logLikelihood: -759.084482
+[00:06:05] [worker #3] Bootstrap tree #68, logLikelihood: -981.359739
+[00:06:09] [worker #0] Bootstrap tree #69, logLikelihood: -969.807907
+[00:06:10] [worker #2] Bootstrap tree #67, logLikelihood: -898.579757
+[00:06:21] [worker #1] Bootstrap tree #70, logLikelihood: -924.991930
+[00:06:24] [worker #3] Bootstrap tree #72, logLikelihood: -924.486316
+[00:06:25] [worker #0] Bootstrap tree #73, logLikelihood: -943.796116
+[00:06:33] [worker #2] Bootstrap tree #71, logLikelihood: -910.517476
+[00:06:38] [worker #1] Bootstrap tree #74, logLikelihood: -996.650520
+[00:06:40] [worker #3] Bootstrap tree #76, logLikelihood: -896.348667
+[00:06:42] [worker #0] Bootstrap tree #77, logLikelihood: -1009.844909
+[00:06:51] [worker #2] Bootstrap tree #75, logLikelihood: -889.781050
+[00:06:53] [worker #1] Bootstrap tree #78, logLikelihood: -849.835510
+[00:06:54] [worker #3] Bootstrap tree #80, logLikelihood: -920.019546
+[00:06:57] [worker #0] Bootstrap tree #81, logLikelihood: -933.066317
+[00:07:05] [worker #2] Bootstrap tree #79, logLikelihood: -773.041186
+[00:07:09] [worker #3] Bootstrap tree #84, logLikelihood: -859.388599
+[00:07:09] [worker #1] Bootstrap tree #82, logLikelihood: -1030.100736
+[00:07:14] [worker #0] Bootstrap tree #85, logLikelihood: -928.382018
+[00:07:21] [worker #2] Bootstrap tree #83, logLikelihood: -857.556759
+[00:07:28] [worker #3] Bootstrap tree #88, logLikelihood: -900.371754
+[00:07:29] [worker #0] Bootstrap tree #89, logLikelihood: -886.501772
+[00:07:33] [worker #1] Bootstrap tree #86, logLikelihood: -911.773965
+[00:07:36] [worker #2] Bootstrap tree #87, logLikelihood: -851.263992
+[00:07:46] [worker #0] Bootstrap tree #93, logLikelihood: -872.133935
+[00:07:47] [worker #3] Bootstrap tree #92, logLikelihood: -969.063471
+[00:07:52] [worker #2] Bootstrap tree #91, logLikelihood: -1057.122954
+[00:07:59] [worker #1] Bootstrap tree #90, logLikelihood: -903.268186
+[00:08:02] [worker #3] Bootstrap tree #96, logLikelihood: -913.160892
+[00:08:06] [worker #0] Bootstrap tree #97, logLikelihood: -1033.376904
+[00:08:07] [worker #2] Bootstrap tree #95, logLikelihood: -1016.502070
+[00:08:15] [worker #1] Bootstrap tree #94, logLikelihood: -896.218472
+[00:08:18] [worker #3] Bootstrap tree #100, logLikelihood: -929.591852
+[00:08:23] [worker #2] Bootstrap tree #99, logLikelihood: -914.054230
+[00:08:40] [worker #1] Bootstrap tree #98, logLikelihood: -895.326813
+[00:08:56] [worker #2] Bootstrap tree #103, logLikelihood: -866.774368
+[00:08:57] [worker #0] Bootstrap tree #101, logLikelihood: -859.846330
+[00:08:58] [worker #1] Bootstrap tree #102, logLikelihood: -955.868610
+[00:08:59] [worker #3] Bootstrap tree #104, logLikelihood: -877.073598
+[00:09:08] [worker #2] Bootstrap tree #107, logLikelihood: -830.571285
+[00:09:10] [worker #0] Bootstrap tree #105, logLikelihood: -788.923475
+[00:09:11] [worker #3] Bootstrap tree #108, logLikelihood: -773.789890
+[00:09:11] [worker #1] Bootstrap tree #106, logLikelihood: -1005.224502
+[00:09:22] [worker #2] Bootstrap tree #111, logLikelihood: -720.868947
+[00:09:27] [worker #1] Bootstrap tree #110, logLikelihood: -813.447439
+[00:09:27] [worker #0] Bootstrap tree #109, logLikelihood: -970.708901
+[00:09:28] [worker #3] Bootstrap tree #112, logLikelihood: -894.137730
+[00:09:41] [worker #2] Bootstrap tree #115, logLikelihood: -892.451899
+[00:09:43] [worker #1] Bootstrap tree #114, logLikelihood: -874.026786
+[00:09:44] [worker #3] Bootstrap tree #116, logLikelihood: -973.702519
+[00:09:46] [worker #0] Bootstrap tree #113, logLikelihood: -774.511165
+[00:09:57] [worker #2] Bootstrap tree #119, logLikelihood: -859.468108
+[00:10:00] [worker #0] Bootstrap tree #117, logLikelihood: -989.304466
+[00:10:01] [worker #3] Bootstrap tree #120, logLikelihood: -1029.222970
+[00:10:02] [worker #1] Bootstrap tree #118, logLikelihood: -828.395355
+[00:10:14] [worker #2] Bootstrap tree #123, logLikelihood: -890.632571
+[00:10:15] [worker #0] Bootstrap tree #121, logLikelihood: -943.936878
+[00:10:18] [worker #1] Bootstrap tree #122, logLikelihood: -1019.557039
+[00:10:26] [worker #3] Bootstrap tree #124, logLikelihood: -904.222376
+[00:10:29] [worker #0] Bootstrap tree #125, logLikelihood: -923.002531
+[00:10:31] [worker #1] Bootstrap tree #126, logLikelihood: -909.262255
+[00:10:34] [worker #2] Bootstrap tree #127, logLikelihood: -1020.197084
+[00:10:45] [worker #1] Bootstrap tree #130, logLikelihood: -879.403816
+[00:10:46] [worker #3] Bootstrap tree #128, logLikelihood: -747.272958
+[00:10:47] [worker #0] Bootstrap tree #129, logLikelihood: -841.432860
+[00:10:50] [worker #2] Bootstrap tree #131, logLikelihood: -891.564736
+[00:11:01] [worker #0] Bootstrap tree #133, logLikelihood: -923.538995
+[00:11:03] [worker #1] Bootstrap tree #134, logLikelihood: -884.042402
+[00:11:03] [worker #2] Bootstrap tree #135, logLikelihood: -878.033830
+[00:11:07] [worker #3] Bootstrap tree #132, logLikelihood: -1003.164530
+[00:11:16] [worker #0] Bootstrap tree #137, logLikelihood: -905.372479
+[00:11:17] [worker #1] Bootstrap tree #138, logLikelihood: -845.187185
+[00:11:18] [worker #2] Bootstrap tree #139, logLikelihood: -847.381562
+[00:11:23] [worker #3] Bootstrap tree #136, logLikelihood: -928.559762
+[00:11:31] [worker #2] Bootstrap tree #143, logLikelihood: -927.950527
+[00:11:33] [worker #1] Bootstrap tree #142, logLikelihood: -1037.275040
+[00:11:38] [worker #3] Bootstrap tree #140, logLikelihood: -954.819644
+[00:11:41] [worker #0] Bootstrap tree #141, logLikelihood: -923.956236
+[00:11:46] [worker #2] Bootstrap tree #147, logLikelihood: -905.276964
+[00:11:46] [worker #1] Bootstrap tree #146, logLikelihood: -828.475186
+[00:11:50] [worker #3] Bootstrap tree #144, logLikelihood: -872.520818
+[00:11:55] [worker #0] Bootstrap tree #145, logLikelihood: -1006.544648
+[00:12:07] [worker #1] Bootstrap tree #150, logLikelihood: -994.227371
+[00:12:07] [worker #3] Bootstrap tree #148, logLikelihood: -797.277950
+[00:12:13] [worker #0] Bootstrap tree #149, logLikelihood: -944.884559
+[00:12:30] [worker #1] Bootstrap tree #154, logLikelihood: -942.438957
+[00:12:30] [worker #2] Bootstrap tree #151, logLikelihood: -1029.219033
+[00:12:32] [worker #3] Bootstrap tree #152, logLikelihood: -949.412182
+[00:12:32] [worker #0] Bootstrap tree #153, logLikelihood: -1078.746453
+[00:12:45] [worker #1] Bootstrap tree #158, logLikelihood: -836.706832
+[00:12:48] [worker #3] Bootstrap tree #156, logLikelihood: -970.351812
+[00:12:49] [worker #0] Bootstrap tree #157, logLikelihood: -881.392455
+[00:12:54] [worker #2] Bootstrap tree #155, logLikelihood: -907.520850
+[00:13:03] [worker #1] Bootstrap tree #162, logLikelihood: -826.138505
+[00:13:04] [worker #3] Bootstrap tree #160, logLikelihood: -1048.709182
+[00:13:05] [worker #0] Bootstrap tree #161, logLikelihood: -925.215140
+[00:13:07] [worker #2] Bootstrap tree #159, logLikelihood: -973.882942
+[00:13:19] [worker #3] Bootstrap tree #164, logLikelihood: -846.359316
+[00:13:22] [worker #2] Bootstrap tree #163, logLikelihood: -919.974365
+[00:13:22] [worker #1] Bootstrap tree #166, logLikelihood: -807.509051
+[00:13:23] [worker #0] Bootstrap tree #165, logLikelihood: -956.750705
+[00:13:35] [worker #3] Bootstrap tree #168, logLikelihood: -1019.051452
+[00:13:36] [worker #2] Bootstrap tree #167, logLikelihood: -933.176354
+[00:13:39] [worker #1] Bootstrap tree #170, logLikelihood: -1015.178295
+[00:13:44] [worker #0] Bootstrap tree #169, logLikelihood: -977.543551
+[00:13:48] [worker #2] Bootstrap tree #171, logLikelihood: -863.747689
+[00:13:55] [worker #3] Bootstrap tree #172, logLikelihood: -1008.247655
+[00:13:57] [worker #1] Bootstrap tree #174, logLikelihood: -961.182147
+[00:14:01] [worker #0] Bootstrap tree #173, logLikelihood: -895.356681
+[00:14:08] [worker #2] Bootstrap tree #175, logLikelihood: -882.819758
+[00:14:12] [worker #3] Bootstrap tree #176, logLikelihood: -844.351711
+[00:14:15] [worker #1] Bootstrap tree #178, logLikelihood: -865.254497
+[00:14:18] [worker #0] Bootstrap tree #177, logLikelihood: -950.829318
+[00:14:30] [worker #3] Bootstrap tree #180, logLikelihood: -964.189092
+[00:14:32] [worker #1] Bootstrap tree #182, logLikelihood: -936.343443
+[00:14:35] [worker #0] Bootstrap tree #181, logLikelihood: -1000.502126
+[00:14:37] [worker #2] Bootstrap tree #179, logLikelihood: -1056.132332
+[00:14:45] [worker #1] Bootstrap tree #186, logLikelihood: -841.545742
+[00:14:45] [worker #3] Bootstrap tree #184, logLikelihood: -815.491201
+[00:14:52] [worker #0] Bootstrap tree #185, logLikelihood: -926.132777
+[00:14:52] [worker #2] Bootstrap tree #183, logLikelihood: -802.962344
+[00:15:02] [worker #3] Bootstrap tree #188, logLikelihood: -1036.617252
+[00:15:05] [worker #1] Bootstrap tree #190, logLikelihood: -973.416005
+[00:15:07] [worker #0] Bootstrap tree #189, logLikelihood: -857.929264
+[00:15:09] [worker #2] Bootstrap tree #187, logLikelihood: -845.856513
+[00:15:22] [worker #1] Bootstrap tree #194, logLikelihood: -980.141133
+[00:15:23] [worker #3] Bootstrap tree #192, logLikelihood: -995.222376
+[00:15:28] [worker #2] Bootstrap tree #191, logLikelihood: -956.117155
+[00:15:31] [worker #0] Bootstrap tree #193, logLikelihood: -804.478086
+[00:15:35] [worker #3] Bootstrap tree #196, logLikelihood: -845.632367
+[00:15:39] [worker #1] Bootstrap tree #198, logLikelihood: -940.981891
+[00:15:42] [worker #2] Bootstrap tree #195, logLikelihood: -907.001636
+[00:15:46] [worker #0] Bootstrap tree #197, logLikelihood: -863.385879
+[00:15:49] [worker #3] Bootstrap tree #200, logLikelihood: -843.118838
+[00:15:58] [worker #2] Bootstrap tree #199, logLikelihood: -891.623221
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (8 cats, mean),  alpha: 0.020122 (ML),  weights&rates: (0.125000,0.000000) (0.125000,0.000000) (0.125000,0.000000) (0.125000,0.000000) (0.125000,0.000000) (0.125000,0.000002) (0.125000,0.005138) (0.125000,7.994860) 
+   Base frequencies (empirical): 0.350559 0.000000 0.000000 0.000000 0.147609 0.000000 0.000000 0.062668 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.439164 0.000000 0.000000 0.000000 
+   Substitution rates (model): 0.425093 0.276818 0.395144 2.489084 0.969894 1.038545 2.066040 0.358858 0.149830 0.395337 0.536518 1.124035 0.253701 1.177651 4.727182 2.139501 0.180717 0.218959 2.547870 0.751878 0.123954 0.534551 2.807908 0.363970 0.390192 2.426601 0.126991 0.301848 6.326067 0.484133 0.052722 0.332533 0.858151 0.578987 0.593607 0.314440 0.170887 5.076149 0.528768 1.695752 0.541712 1.437645 4.509238 0.191503 0.068427 2.145078 0.371004 0.089525 0.161787 4.008358 2.000679 0.045376 0.612025 0.083688 0.062556 0.523386 5.243870 0.844926 0.927114 0.010690 0.015076 0.282959 0.025548 0.017416 0.394456 1.240275 0.425860 0.029890 0.135107 0.037967 0.084808 0.003499 0.569265 0.640543 0.320627 0.594007 0.013266 0.893680 1.105251 0.075382 2.784478 1.143480 0.670128 1.165532 1.959291 4.128591 0.267959 4.813505 0.072854 0.582457 3.234294 1.672569 0.035855 0.624294 1.223828 1.080136 0.236199 0.257336 0.210332 0.348847 0.423881 0.044265 0.069673 1.807177 0.173735 0.018811 0.419409 0.611973 0.604545 0.077852 0.120037 0.245034 0.311484 0.008705 0.044261 0.296636 0.139538 0.089586 0.196961 1.739990 0.129836 0.268491 0.054679 0.076701 0.108882 0.366317 0.697264 0.442472 0.682139 0.508851 0.990012 0.584262 0.597054 5.306834 0.119013 4.145067 0.159069 4.273607 1.112727 0.078281 0.064105 1.033739 0.111660 0.232523 10.649107 0.137500 6.312358 2.592692 0.249060 0.182287 0.302936 0.619632 0.299648 1.702745 0.656604 0.023918 0.390322 0.748683 1.136863 0.049906 0.131932 0.185202 1.798853 0.099849 0.346960 2.020366 0.696175 0.481306 1.898718 0.094464 0.361819 0.165001 2.457121 7.803902 0.654683 1.338132 0.571468 0.095131 0.089613 0.296501 6.472279 0.248862 0.400547 0.098369 0.140825 0.245841 2.188158 3.151815 0.189510 0.249313 
+
+
+Final LogLikelihood: -924.573176
+
+AIC score: 2363.146352 / AICc score: 3516.294178 / BIC score: 3370.992006
+Free parameters (model + branch lengths): 257
+
+WARNING: Best ML tree contains 94 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree
+All ML trees saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.mlTrees
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.support
+Optimized model saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestModel
+Bootstrap trees saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bootstraps
+
+Execution log saved to: /home/michael-hall/Desktop/myProject/alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.log
+
+Analysis started: 13-Feb-2025 16:07:28 / finished: 13-Feb-2025 16:23:27
+
+Elapsed time: 958.204 seconds
+
