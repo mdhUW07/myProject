@@ -62,7 +62,13 @@ Multiple sequence alignment of the cyt b sequences is a prerequesite for phyloge
 progressivley optimizes the alignment based on pairwise alignments that is comparable to another software ClustalW. I will include a script of the command lines necessary to achieve the 
 progressive alginment after prerequisite software has been downloaded to the operating system of your choice. In the data directory a master source file from which all downstream analysis
 start is the first argument for running the t_coffee multiple sequence alignment software. One of the weaknesses of t-coffee is the complexity of user parameter specifications which may
-require a deeper understanding of the underlying algorithms. In order to achieve an optimum alignment knowledge of how these different parameter specifications work depending on the specific data set and goals.  
+require a deeper understanding of the underlying algorithms. In order to achieve an optimum alignment knowledge of how these different parameter specifications work depending on the specific data set and goals. You
+can see there are 120 DNA sequences running on 8 core processors with the FASTA file as an input, with the manual gap penalities are set to zero by default and are only applied after the global alignment method
+has been selected either by choice or by default. However the gap penalties can be customized accordingly can be changing via the flag arguments -gapopen and -gapext. The guide tree is made by using a neighbor jointing method by default, but is possible
+to compute a UPGMA a rooted tree unweighted pair group method with arithmetic mean.
+
+
+
 
 ```
 t_coffee outfile.fas 
