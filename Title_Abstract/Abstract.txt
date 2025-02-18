@@ -1,0 +1,15 @@
+# Title: A workflow with Linux and R: A phylogenetic analysis using mitochondrial cyctochrome b gene sequences
+
+# Abstract
+
+Phylogenetic Analysis is a method to visualize the evolutionary relationships by common anscestor descent for different species, organisms, or genes. It is also a road map of information for discovering species diversification within a population and between species.
+DNA Sequencing technology has advanced rapdily since the human genome project was first established in 2003 lowering the cost of entry barrier by out pacing the expectations of Moores Law beginning in 2008. This has led to large amounts of data being produced in the molecular
+genetics arena. In order to analyze this data new methods have been developed based on large computations and software packages and programs. Linux is an open source operating system allowing users to access and install different software programs remotely into specified computing environments without a licensing agreement allowing flexibility and colloboration. 
+R is an open source software environment with the ability to develop packages and libraries for particular data analysis. Several analysis are possible with just one formatted input file, and in this case it is a multiple sequence FASTA formatted file with a (.fas) extension. We demonstrate a reproducible phylogenetic anlaysis workflow with visulaizations in R using an example date set consisting of  120 mitochondrial cyt b sequences of B. terrestris dalmatinus,
+that were collected from 8 different beehives in Antalya. 
+
+
+
+     
+ 
+
