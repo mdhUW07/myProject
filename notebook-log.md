@@ -70,3 +70,56 @@ t_coffee outfile.fas
 ```
 
 
+INPUT FILES
+	Input File (S) Desktop/myProject/data/outfile.fas  Format fasta_seq
+	Input File (M) proba_pair 
+
+Identify Master Sequences [no]:
+
+Master Sequences Identified
+INPUT SEQUENCES: 120 SEQUENCES  [DNA]
+	Multi Core Mode: 8 processors:
+
+	--- Process Method/Library/Aln SDesktop/myProject/data/outfile.fas
+	--- Process Method/Library/Aln Mproba_pair
+	xxx Retrieved SDesktop/myProject/data/outfile.fas
+	xxx Retrieved Mproba_pair
+
+	All Methods Retrieved
+
+MANUAL PENALTIES: gapopen=0 gapext=0
+
+	Library Total Size: [5348776]
+
+Library Relaxation: Multi_proc [8]
+ 
+!		[Relax Library][TOT=   15][100 %]
+
+Relaxation Summary: [5348776]--->[5330672]
+
+
+
+UN-WEIGHTED MODE: EVERY SEQUENCE WEIGHTS 1
+
+MAKE GUIDE TREE 
+	[MODE=nj][DONE]
+
+PROGRESSIVE_ALIGNMENT [Tree Based]
+
+	Group  239: [Group  238 (  23 seq)] with [Group  216 (  97 seq)]-->[Len=  373][PID:13042][Forked]
+
+
+!		[Final Evaluation][TOT=   46][100 %]
+
+
+
+OUTPUT RESULTS
+	#### File Type= GUIDE_TREE      Format= newick          Name= outfile.dnd
+	#### File Type= MSA             Format= aln             Name= outfile.aln
+	#### File Type= MSA             Format= html            Name= outfile.html
+
+# Command Line: t_coffee Desktop/myProject/data/outfile.fas  [PROGRAM:T-COFFEE]
+# T-COFFEE Memory Usage: Current= 33.629 Mb, Max= 143.352 Mb
+# Results Produced with T-COFFEE Version_12.00.7fb08c2 (2018-12-11 09:27:12 - Revision 7fb08c2 - Build 211)
+# T-COFFEE is available from http://www.tcoffee.org
+# Register on: https://groups.google.com/group/tcoffee/
