@@ -69,7 +69,7 @@ t_coffee outfile.fas
 
 ```
 
-
+```
 INPUT FILES
 	Input File (S) Desktop/myProject/data/outfile.fas  Format fasta_seq
 	Input File (M) proba_pair 
@@ -114,12 +114,14 @@ PROGRESSIVE_ALIGNMENT [Tree Based]
 
 
 OUTPUT RESULTS
-	#### File Type= GUIDE_TREE      Format= newick          Name= outfile.dnd
-	#### File Type= MSA             Format= aln             Name= outfile.aln
-	#### File Type= MSA             Format= html            Name= outfile.html
+#### File Type= GUIDE_TREE      Format= newick          Name= outfile.dnd
+#### File Type= MSA             Format= aln             Name= outfile.aln
+#### File Type= MSA             Format= html            Name= outfile.html
 
 # Command Line: t_coffee Desktop/myProject/data/outfile.fas  [PROGRAM:T-COFFEE]
 # T-COFFEE Memory Usage: Current= 33.629 Mb, Max= 143.352 Mb
 # Results Produced with T-COFFEE Version_12.00.7fb08c2 (2018-12-11 09:27:12 - Revision 7fb08c2 - Build 211)
 # T-COFFEE is available from http://www.tcoffee.org
 # Register on: https://groups.google.com/group/tcoffee/
+
+```
