@@ -17,26 +17,45 @@ Installation
 We are following the steps on the Installation.
 
 #Make a parent directory and name it miniconda3
+```
     mkdir -p ~/miniconda3
+```
 #Use wget command to download from source package online
+```
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-#Run the shell script by invoking bash command on the executable bash file    
+```
+#Run the shell script by invoking bash command on the executable bash file
+```    
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+```
 #remove the bash file
+```
     rm ~/miniconda3/miniconda.sh
+```
 #Check which version you have installed
+```
     which conda
+```
 #which python version
+```
     which python -V
+```
 #Create conda environment
+```
     conda create --name phyluce phyluce
+```
 #Activate the environment
+```
     conda activate phyluce
+```
 #Install t_coffee alignment software from bioconda channel
+```
     conda install bioconda::t_coffee
+```
 #Show list of available software packages and their versions in your phyluce environment
+```
     conda list
-
+```
 
 #Aligning my data with t_coffee
 Multiple sequence alignment of the cyt b sequences is a prerequesite for phylogentic analysis. T_coffee is a free open source software used for multiple sequence alignment, which
