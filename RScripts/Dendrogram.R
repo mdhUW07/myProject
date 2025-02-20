@@ -4,7 +4,7 @@ library(adegenet)
 #install.packages("phangorn",dep=TRUE)
 library(phangorn)
 library(pegas)
-#The data used in this practical are 12 0 DNA sequences of Bombus terrestris dalmatinus the buff tailed bumblebee of the mitochondrial cytochrom b gene sequence from the research paper.
+#The data used in this practical are 120 DNA sequences of Bombus terrestris dalmatinus the buff tailed bumblebee of the mitochondrial cytochrom b gene sequence from the research paper.
 #Alignments have been realized before hand using standard tools (Clustalw for basic alignment)
 
 

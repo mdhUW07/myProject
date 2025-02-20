@@ -52,6 +52,17 @@ We are following the steps on the Installation.
 ```
     conda install bioconda::t_coffee
 ```
+
+##Install standard phylogenetic R packages into your conda environment 
+```
+    conda install conda-forge::r-base
+    conda install r-essentials
+    conda install bioconda::r-adegenet
+    conda install bioconda::r-phangorn
+    conda install bioconda::r-pegas
+
+
+```
 ## Show list of available software packages and their versions in your phyluce environment
 ```
     conda list
@@ -131,3 +142,27 @@ OUTPUT RESULTS
 # Register on: https://groups.google.com/group/tcoffee/
 
 ```
+#ClustalW alignment method
+ClustalW is a third generation computer progam used for multiple sequence alignment in bioinformatics. It is claimed to have improved on the progressive alignment method algorithm, which 
+computes similarity scores between sequences which produces pairwise alignments. There are set penalties for gaps, but in this case all arguments are set to default because it is such a 
+great alignment. After a pairwise matrix if formed a neighbor-joining method is employed to make a guide tree. It is accurate, and consistent when compared against other softwares such as 
+MAFFT, and T-Coffee. 
+```
+clustalw -infile=Desktop/myProject/data/outfile.fas -outfile=Bombus_terrestris_aligned_sequences.fasta -output=fasta
+```
+##The aligned sequences are independently given per species sequence
+
+# Haplotype R Script
+A Haplotype is a group of DNA variations from the cyt b gene that are inherited from a single parent. It comes from the word "haploid" and by examining these haplotypes reserachers 
+can identify patterns of genetic variation associated with disease states. In this case its just a Bumble Bee but the principle is the same when studying genetic disease associations. The R-Script produces a haplotype matrix with the rows as haplotype groups, in this case there are 20 unique haplotypes and the columns are the position in the sequence where the change 
+between genetic mutation or single nucleotide polymorphism occured.
+
+
+```
+Rscript Haplotypes.R ../data/outfile.fas homolog.csv
+```
+
+
+# Distance and Parsimony Methods
+
+
