@@ -9,7 +9,17 @@ R is an open source software environment with the ability to develop packages an
 that were collected from 8 different beehives in Antalya. 
 
 
+#Introduction
+
+The cytochome B gene is a protein located in the mitochondria found in the membranes of aerobic cells and is a compoenet of the electron transport chain in mitochondria, which converts food into energy for the cells. Essentially it plays a role in the repiratory chain complex 3, where a protein gradient drives the synthesis of adenosine triphosphate. The gene is orthologous
+in humans where rare mutations in the gene have been linked to exercise intolerance, similarly a rare mutation in gene found in the parasite that causes malaria plasmodium falciparum can lead to anti-malarial drug resistance. The Bombus terrestris dalmatinus mitochondrial DNA is not found in the nuclues of the cell but due to its maternal inheritance pattern is useful for studying evolutionary relationships, and populaton genetics. The mitchondrial DNA is 174,000 base pairs long, and the cytochrome B gene is  
+373 base pairs long representing only 1/5 of a percent of the total length. 
+
+
 
      
  
+
+https://www.tandfonline.com/doi/full/10.3109/19401736.2015.1089568
+
 

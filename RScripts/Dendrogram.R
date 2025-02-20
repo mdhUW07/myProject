@@ -1,13 +1,22 @@
 #Distance based methods
 library(ape)
 library(adegenet)
-install.packages("phangorn",dep=TRUE)
+#install.packages("phangorn",dep=TRUE)
 library(phangorn)
+library(pegas)
 #The data used in this practical are 12 0 DNA sequences of Bombus terrestris dalmatinus the buff tailed bumblebee of the mitochondrial cytochrom b gene sequence from the research paper.
 #Alignments have been realized before hand using standard tools (Clustalw for basic alignment)
 
 
 dna <- fasta2DNAbin(file="outfile.fas")
+
+#Haplotype network
+h <- haplotype(dna)
+#Haplonet
+hN <- haploNet(h)
+#Dataframe of 20 different haplotypes
+HapTyp_DF = as.data.frame(diffHaplo(h,1:20,strict = FALSE))
+HapTyp_DF = t(HapTyp_DF)
 
 #Compute genetic distances using Tamura and New 1993 model which allows for different rates of transistions and transversions, heterogenous base frequencies and
 #between site variation of the substitution rate.
