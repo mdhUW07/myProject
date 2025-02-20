@@ -142,7 +142,7 @@ OUTPUT RESULTS
 # Register on: https://groups.google.com/group/tcoffee/
 
 ```
-#ClustalW alignment method
+# ClustalW alignment method
 ClustalW is a third generation computer progam used for multiple sequence alignment in bioinformatics. It is claimed to have improved on the progressive alignment method algorithm, which 
 computes similarity scores between sequences which produces pairwise alignments. There are set penalties for gaps, but in this case all arguments are set to default because it is such a 
 great alignment. After a pairwise matrix if formed a neighbor-joining method is employed to make a guide tree. It is accurate, and consistent when compared against other softwares such as 
@@ -150,7 +150,7 @@ MAFFT, and T-Coffee.
 ```
 clustalw -infile=Desktop/myProject/data/outfile.fas -outfile=Bombus_terrestris_aligned_sequences.fasta -output=fasta
 ```
-##The aligned sequences are independently given per species sequence
+## The aligned sequences are independently given per species sequence
 
 # Haplotype R Script
 A Haplotype is a group of DNA variations from the cyt b gene that are inherited from a single parent. It comes from the word "haploid" and by examining these haplotypes reserachers 
