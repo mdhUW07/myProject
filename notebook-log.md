@@ -169,6 +169,6 @@ Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 Rscript DistanceBased.R ../data/outfile.fas
 
 ```
-![alt text for screen readers](/mdhUW07/myProject/tree/main/Picsdistancebasedphylogenies.png)
+![alt text for screen readers](/Pics/Picsdistancebasedphylogenies.png)
 
 
