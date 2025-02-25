@@ -181,7 +181,7 @@ The Rscript performs the neighbor-joining tree estimation of Saitou and Nei (198
 
 
 ```
-RScript ParsimonyBasedTree.R ../data/outfile.fas
+Rscript ParsimonyBasedTree.R ../data/outfile.fas
 
 ```
 In the parsimony based method of computing a phylogenetic tree the parsimony ratchet is a preferred way to search for the best parsimony tree. After returning a parsinomy score
@@ -190,3 +190,13 @@ on the initial tree, the optimal parsimony function returns a tree after using N
 ![alt](/Pics/ParsimonyTree.png)
 
 
+```
+Rscript AssessingQualityofFitNJ.R
+
+```
+After using the Neighbor-Joining Method to construct the pairwise distance matrix, we can assess it fit by compaing the original distances in the matrix to the distances found on 
+the pylogenetic tree.
+
+![alt](/Pics/NJmethod.png)
+
+![alt](/Pics/NLmethod.png)
