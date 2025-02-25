@@ -195,8 +195,14 @@ Rscript AssessingQualityofFitNJ.R
 
 ```
 After using the Neighbor-Joining Method to construct the pairwise distance matrix, we can assess it fit by compaing the original distances in the matrix to the distances found on 
-the pylogenetic tree.
+the pylogenetic tree. The two distance measurements are strongly correlated at 0.9396.
 
 ![alt](/Pics/NJmethod.png)
 
-![alt](/Pics/NLmethod.png)
+
+# Unweighted pair group method with Arithmetic Mean
+
+Another method that uses hierarchical clustering taking points from the distances between clusters and distances between two objects in each cluster. Compared to NJ method it has a 
+smaller correlation, and not as good of a fit.
+
+![alt](/Pics/UPMGAmethod.png)
