@@ -170,5 +170,23 @@ Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 Rscript DistanceBased.R ../data/outfile.fas
 
 ```
+The RScript computes a pairwise distance matrix from the 120 DNA sequences of the cyt B gene of the Terrestris Bombus using a model of evolution from Tamura (1992). The model assumes
+distinct rates for both kinds of transistions A<-->G and C <-->T, and transversions. The base frequencies are estimated and not assumed to be equal. 
+
 ![alt](/Pics/DistanceBasedPhylogenies.png)
+
+The Rscript performs the neighbor-joining tree estimation of Saitou and Nei (1987). It takes as an input the distance matrix computed in the previous step.
+
+![alt](/Pics/TerrestrisBombusNJTree.png)
+
+
+```
+RScript ParsimonyBasedTree.R ../data/outfile.fas
+
+```
+In the parsimony based method of computing a phylogenetic tree the parsimony ratchet is a preferred way to search for the best parsimony tree. After returning a parsinomy score
+on the initial tree, the optimal parsimony function returns a tree after using NNI rearrangements. 
+
+![alt](/Pics/ParsimonyTree.png)
+
 

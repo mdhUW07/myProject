@@ -23,7 +23,9 @@ class(tre)
 tre <- ladderize(tre)
 
 plot(tre, cex=.6)
-title("A Simple Neigbor Joining Tree for Terristrus Bombus")
+title("A Simple Neigbor Joining Tree for Terrestris Bombus")
+
+
 MyTreetreesMyTreetreesMyTreetreesMyTree <- read.tree("outfile.dnd",keep.multi = TRUE)
 png("my_file_png")
 plot(MyTree)
