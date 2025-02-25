@@ -205,4 +205,4 @@ the pylogenetic tree. The two distance measurements are strongly correlated at 0
 Another method that uses hierarchical clustering taking points from the distances between clusters and distances between two objects in each cluster. Compared to NJ method it has a 
 smaller correlation, and not as good of a fit.
 
-![alt](/Pics/UPMGAmethod.png)
+![alt](/Pics/UPGMAmethod.png)
