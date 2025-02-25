@@ -162,6 +162,7 @@ between genetic mutation or single nucleotide polymorphism occured.
 Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 ```
 
+![alt2](/Pics/homolog-page-2.png)
 
 # Estimating a Distance based phylogenetic tree and Parsimony based phylogenetic tree with R
 
@@ -169,6 +170,5 @@ Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 Rscript DistanceBased.R ../data/outfile.fas
 
 ```
-![alt text for screen readers](/Pics/DistanceBasedPhylogenies.png)
-
+![alt](/Pics/DistanceBasedPhylogenies.png)
 
