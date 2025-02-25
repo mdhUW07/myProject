@@ -163,6 +163,12 @@ Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 ```
 
 
-# Distance and Parsimony Methods
+# Estimating a Distance based phylogenetic tree and Parsimony based phylogenetic tree with R
+
+```
+Rscript DistanceBased.R ../data/outfile.fas
+
+```
+![alt text for screen readers](/home/michael-hall/Desktop/myProject/Pics/distancebasedphylogenies.png)
 
 
