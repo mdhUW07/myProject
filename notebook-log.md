@@ -212,17 +212,24 @@ smaller correlation, and not as good of a fit.
 
 
 # Raxml Maximum Likelihood Tree Construction
+Perform an all-in-one analysis (ML tree search + non-parametric bootstrap) (10 randomized parsimony starting trees, fixed empirical substitution matrix (LG), 
+empirical aminoacid frequencies from alignment, 8 discrete GAMMA categories, 200 bootstrap replicates):
+
 
 ```
 raxml-ng --all -msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model LG+G8+F --tree pars{10} --bs-trees 200
 
 ```
+From the output using figtree downloaded from biocondaview the best fitting phylogenetic tree. If Gimp a photo editing software is downloaded you can open up the tree in a java script
+and change the settings to visulalize the tree better/
 
 ```
 
 figtree Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree
 
 ```
+You can view the initial starting tree and the best tree
+[alt](/Pics/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.startTree.jpg)
 
 ![alt](/Pics/Raxml_Muslce_align_Best_Tree.jpg)
 

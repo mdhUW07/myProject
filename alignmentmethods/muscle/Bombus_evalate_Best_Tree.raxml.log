@@ -1,0 +1,65 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz, 4 cores, 15 GB RAM
+
+RAxML-NG was called at 27-Feb-2025 12:45:32 as follows:
+
+raxml-ng --evaluate --msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.reduced.phy --tree Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree --model LG+G8+F --prefix Bombus_evalate_Best_Tree
+
+Analysis options:
+  run mode: Evaluate tree likelihood
+  start tree(s): user
+  random seed: 1740681932
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 0.100000, brlen-triplet: 1000.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.reduced.phy
+[00:00:00] Loaded alignment with 20 taxa and 373 sites
+
+WARNING: State 1 has very low frequency (0.000000000)!
+WARNING: State 2 has very low frequency (0.000000000)!
+WARNING: State 3 has very low frequency (0.000000000)!
+WARNING: State 5 has very low frequency (0.000000000)!
+WARNING: State 6 has very low frequency (0.000000000)!
+WARNING: State 8 has very low frequency (0.000000000)!
+WARNING: State 9 has very low frequency (0.000000000)!
+WARNING: State 10 has very low frequency (0.000000000)!
+WARNING: State 11 has very low frequency (0.000000000)!
+WARNING: State 12 has very low frequency (0.000000000)!
+WARNING: State 13 has very low frequency (0.000000000)!
+WARNING: State 14 has very low frequency (0.000000000)!
+WARNING: State 15 has very low frequency (0.000000000)!
+WARNING: State 17 has very low frequency (0.000000000)!
+WARNING: State 18 has very low frequency (0.000000000)!
+WARNING: State 19 has very low frequency (0.000000000)!
+
+WARNING: Some states have very low frequencies, which might lead to numerical issues!
+
+Alignment comprises 1 partitions and 35 patterns
+
+Partition 0: noname
+Model: LG+FC+G8m
+Alignment sites / patterns: 373 / 35
+Gaps: 0.00 %
+Invariant sites: 89.01 %
+
+
+NOTE: Binary MSA file created: Bombus_evalate_Best_Tree.raxml.rba
+
+Parallelization scheme autoconfig: 1 worker(s) x 4 thread(s)
+
+[00:00:00] Loading user starting tree(s) from: Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree
+
+ERROR: Some taxa are missing from the alignment file
+
