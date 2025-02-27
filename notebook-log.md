@@ -60,6 +60,7 @@ We are following the steps on the Installation.
     conda install bioconda::r-adegenet
     conda install bioconda::r-phangorn
     conda install bioconda::r-pegas
+    conda install bioconda::figtree
 
 
 ```
@@ -206,3 +207,24 @@ Another method that uses hierarchical clustering taking points from the distance
 smaller correlation, and not as good of a fit.
 
 ![alt](/Pics/UPGMAmethod.png)
+
+
+
+
+# Raxml Maximum Likelihood Tree Construction
+
+```
+raxml-ng --all -msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model LG+G8+F --tree pars{10} --bs-trees 200
+
+```
+
+```
+
+figtree Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree
+
+```
+
+![alt](/Pics/Raxml_Muslce_align_Best_Tree.jpg)
+
+
+
