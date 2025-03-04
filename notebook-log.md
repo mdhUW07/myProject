@@ -61,7 +61,7 @@ We are following the steps on the Installation.
     conda install bioconda::r-phangorn
     conda install bioconda::r-pegas
     conda install bioconda::figtree
-
+    conda install bioconda::modeltest-ng
 
 ```
 ## Show list of available software packages and their versions in your phyluce environment
