@@ -444,7 +444,7 @@ Elapsed time: 4.417 seconds
 The log likelihood is a condtional distribution based on the observed sample with the primary objective of estimating the unknown parameter by maximizing the likelihood. The 
 final log likelihood for the kamura 2 parameter model is -1062.649156 with the estimated transition rate of 2.016877 and transversion rate of 1.00000. 
 
-# Find the best model fit based on the maximum likelihood estimation procedure.
+# Find the top 3 best model fits based on AIC, BIC, and AICc procedures.
 
 
 ```
