@@ -62,7 +62,10 @@ We are following the steps on the Installation.
     conda install bioconda::r-pegas
     conda install bioconda::figtree
     conda install bioconda::modeltest-ng
-
+    conda install bioconda::iqtree
+    conda install bioconda::muscle
+    conda install bioconda::clustalw
+    conda install bioconda::raxml-ng
 ```
 ## Show list of available software packages and their versions in your phyluce environment
 ```
