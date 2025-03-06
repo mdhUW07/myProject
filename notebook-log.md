@@ -146,6 +146,16 @@ OUTPUT RESULTS
 # Register on: https://groups.google.com/group/tcoffee/
 
 ```
+# Muscle alignment method 
+
+This alignmnet method produces the output file used in the maximum likelihood raxml-ng software that optimizes the phylogenetic tree and is used with modeltest-ng software to find the 
+best model based on information criteria.
+
+```
+muscle -align ../outfile.fas -output Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+
+```
+
 # ClustalW alignment method
 ClustalW is a third generation computer progam used for multiple sequence alignment in bioinformatics. It is claimed to have improved on the progressive alignment method algorithm, which 
 computes similarity scores between sequences which produces pairwise alignments. There are set penalties for gaps, but in this case all arguments are set to default because it is such a 
