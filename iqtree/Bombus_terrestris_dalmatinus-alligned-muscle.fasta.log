@@ -1,0 +1,684 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    michael-hall-T590 (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+Seed:    780593 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 13 13:16:51 2025
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta ... Fasta format detected
+Reading fasta file: done in 0.00288927 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 120 sequences with 373 columns, 35 distinct patterns
+41 parsimony-informative, 0 singleton sites, 332 constant sites
+               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 8.3941e-05 secs using 95.31% CPU
+   1  Aksu_6           0.00%    passed      6.47%
+   2  Bayatbadem_2     0.00%    passed     54.62%
+   3  Bayatbadem_26    0.00%    passed     54.62%
+   4  Bayatbadem_28    0.00%    passed     54.62%
+   5  Bayatbadem_4     0.00%    passed     54.62%
+   6  Bayatbadem_24    0.00%    passed     54.62%
+   7  Bayatbadem_6     0.00%    passed     54.62%
+   8  Phaselis_16      0.00%    passed     41.60%
+   9  Phaselis_2       0.00%    passed     41.60%
+  10  Aksu_14          0.00%    passed     11.58%
+  11  Aksu_24          0.00%    passed     11.58%
+  12  Aksu_26          0.00%    passed     11.58%
+  13  Aksu_4           0.00%    passed     11.58%
+  14  Aksu_10          0.00%    passed     26.66%
+  15  Aksu_12          0.00%    passed     26.66%
+  16  Aksu_8           0.00%    passed     34.15%
+  17  Firm_118         0.00%    passed     34.15%
+  18  Firm_92          0.00%    passed     34.15%
+  19  Firm_102         0.00%    passed     42.56%
+  20  Firm_32          0.00%    passed     69.97%
+  21  Firm_58          0.00%    passed     69.97%
+  22  Bayatbadem_16    0.00%    passed     84.58%
+  23  Bayatbadem_18    0.00%    passed     84.58%
+  24  Bayatbadem_20    0.00%    passed     84.58%
+  25  Geyikbayir_24    0.00%    passed     93.58%
+  26  Geyikbayir_6     0.00%    passed     93.58%
+  27  Geyikbayir_2     0.00%    passed     93.58%
+  28  Geyikbayir_26    0.00%    passed     93.58%
+  29  Geyikbayir_28    0.00%    passed     93.58%
+  30  Geyikbayir_4     0.00%    passed     93.58%
+  31  Phaselis_26      0.00%    passed     99.21%
+  32  Phaselis_28      0.00%    passed     99.21%
+  33  Phaselis_30      0.00%    passed     99.21%
+  34  Phaselis_4       0.00%    passed     99.21%
+  35  Phaselis_6       0.00%    passed     99.21%
+  36  Phaselis_8       0.00%    passed     99.21%
+  37  Termessos_18     0.00%    passed     99.80%
+  38  Termessos_24     0.00%    passed     99.80%
+  39  Termessos_26     0.00%    passed     99.80%
+  40  Termessos_6      0.00%    passed     99.80%
+  41  Firm_2           0.00%    passed     99.67%
+  42  Firm_28          0.00%    passed     99.67%
+  43  Firm_78          0.00%    passed     87.04%
+  44  Firm_82          0.00%    passed     87.04%
+  45  Termessos_1      0.00%    passed     99.80%
+  46  Termessos_2      0.00%    passed     99.80%
+  47  Termessos_27     0.00%    passed     99.80%
+  48  Termessos_28     0.00%    passed     99.80%
+  49  Termessos_29     0.00%    passed     99.80%
+  50  Termessos_3      0.00%    passed     99.80%
+  51  Termessos        0.00%    passed     99.80%
+  52  Termessos_30     0.00%    passed     99.80%
+  53  Termessos_7      0.00%    passed     99.80%
+  54  Termessos_4      0.00%    passed     99.80%
+  55  Termessos_5      0.00%    passed     99.80%
+  56  Firm_70          0.00%    passed     93.18%
+  57  Firm_86          0.00%    passed     93.18%
+  58  Kumluca_12       0.00%    passed     94.10%
+  59  Kumluca_18       0.00%    passed     94.10%
+  60  Kumluca_4        0.00%    passed     94.10%
+  61  Geyikbayir_13    0.00%    passed     90.32%
+  62  Geyikbayir_23    0.00%    passed     90.32%
+  63  Geyikbayir_7     0.00%    passed     90.32%
+  64  Demre_7          0.00%    passed     89.20%
+  65  Demre_8          0.00%    passed     89.20%
+  66  Kumluca_6        0.00%    passed     94.10%
+  67  Kumluca_7        0.00%    passed     94.10%
+  68  Kumluca_5        0.00%    passed     94.10%
+  69  Kumluca_3        0.00%    passed     94.10%
+  70  Kumluca_28       0.00%    passed     94.10%
+  71  Kumluca_27       0.00%    passed     94.10%
+  72  Kumluca_26       0.00%    passed     94.10%
+  73  Kumluca_25       0.00%    passed     94.10%
+  74  Kumluca_24       0.00%    passed     94.10%
+  75  Kumluca_23       0.00%    passed     94.10%
+  76  Kumluca_2        0.00%    passed     94.10%
+  77  Kumluca_1        0.00%    passed     94.10%
+  78  Geyikbayir_5     0.00%    passed     94.10%
+  79  Geyikbayir_3     0.00%    passed     94.10%
+  80  Geyikbayir_27    0.00%    passed     94.10%
+  81  Geyikbayir_25    0.00%    passed     94.10%
+  82  Geyikbayir_21    0.00%    passed     94.10%
+  83  Geyikbayir_1     0.00%    passed     94.10%
+  84  Firm_3           0.00%    passed     94.10%
+  85  Firm_145         0.00%    passed     94.10%
+  86  Firm_146         0.00%    passed     94.10%
+  87  Firm_1           0.00%    passed     94.10%
+  88  Phaselis_5       0.00%    passed     94.10%
+  89  Phaselis_3       0.00%    passed     94.10%
+  90  Phaselis_29      0.00%    passed     94.10%
+  91  Phaselis_27      0.00%    passed     94.10%
+  92  Phaselis_25      0.00%    passed     94.10%
+  93  Phaselis_23      0.00%    passed     94.10%
+  94  Phaselis_1       0.00%    passed     94.10%
+  95  Demre_6          0.00%    passed     94.10%
+  96  Demre_5          0.00%    passed     94.10%
+  97  Demre_4          0.00%    passed     94.10%
+  98  Demre_3          0.00%    passed     94.10%
+  99  Demre_22         0.00%    passed     94.10%
+ 100  Demre_21         0.00%    passed     94.10%
+ 101  Demre_20         0.00%    passed     94.10%
+ 102  Demre_2          0.00%    passed     94.10%
+ 103  Demre_19         0.00%    passed     94.10%
+ 104  Demre_18         0.00%    passed     94.10%
+ 105  Demre_17         0.00%    passed     94.10%
+ 106  Demre_16         0.00%    passed     94.10%
+ 107  Demre_1          0.00%    passed     94.10%
+ 108  Bayatbadem_5     0.00%    passed     94.10%
+ 109  Bayatbadem_3     0.00%    passed     94.10%
+ 110  Bayatbadem_27    0.00%    passed     94.10%
+ 111  Bayatbadem_25    0.00%    passed     94.10%
+ 112  Bayatbadem_23    0.00%    passed     94.10%
+ 113  Bayatbadem_1     0.00%    passed     94.10%
+ 114  Aksu_13          0.00%    passed     94.10%
+ 115  Aksu_3           0.00%    passed     94.10%
+ 116  Aksu_28          0.00%    passed     94.10%
+ 117  Aksu_27          0.00%    passed     94.10%
+ 118  Aksu_25          0.00%    passed     94.10%
+ 119  Aksu_2           0.00%    passed     94.10%
+ 120  Aksu_1           0.00%    passed     94.10%
+****  TOTAL            0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Bayatbadem_26 is identical to Bayatbadem_2 but kept for subsequent analysis
+NOTE: Phaselis_2 is identical to Phaselis_16 but kept for subsequent analysis
+NOTE: Aksu_24 is identical to Aksu_14 but kept for subsequent analysis
+NOTE: Aksu_12 is identical to Aksu_10 but kept for subsequent analysis
+NOTE: Firm_118 is identical to Aksu_8 but kept for subsequent analysis
+NOTE: Firm_58 is identical to Firm_32 but kept for subsequent analysis
+NOTE: Bayatbadem_18 is identical to Bayatbadem_16 but kept for subsequent analysis
+NOTE: Geyikbayir_6 is identical to Geyikbayir_24 but kept for subsequent analysis
+NOTE: Phaselis_28 is identical to Phaselis_26 but kept for subsequent analysis
+NOTE: Termessos_24 is identical to Termessos_18 but kept for subsequent analysis
+NOTE: Firm_28 is identical to Firm_2 but kept for subsequent analysis
+NOTE: Firm_82 is identical to Firm_78 but kept for subsequent analysis
+NOTE: Termessos_2 is identical to Termessos_1 but kept for subsequent analysis
+NOTE: Firm_86 is identical to Firm_70 but kept for subsequent analysis
+NOTE: Kumluca_18 is identical to Kumluca_12 but kept for subsequent analysis
+NOTE: Geyikbayir_23 is identical to Geyikbayir_13 but kept for subsequent analysis
+NOTE: Demre_8 is identical to Demre_7 but kept for subsequent analysis
+NOTE: Kumluca_7 is identical to Kumluca_6 but kept for subsequent analysis
+NOTE: 82 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Bayatbadem_28 (identical to Bayatbadem_2) is ignored but added at the end
+NOTE: Bayatbadem_4 (identical to Bayatbadem_2) is ignored but added at the end
+NOTE: Bayatbadem_24 (identical to Bayatbadem_2) is ignored but added at the end
+NOTE: Bayatbadem_6 (identical to Bayatbadem_2) is ignored but added at the end
+NOTE: Aksu_26 (identical to Aksu_14) is ignored but added at the end
+NOTE: Aksu_4 (identical to Aksu_14) is ignored but added at the end
+NOTE: Firm_92 (identical to Aksu_8) is ignored but added at the end
+NOTE: Bayatbadem_20 (identical to Bayatbadem_16) is ignored but added at the end
+NOTE: Geyikbayir_2 (identical to Geyikbayir_24) is ignored but added at the end
+NOTE: Geyikbayir_26 (identical to Geyikbayir_24) is ignored but added at the end
+NOTE: Geyikbayir_28 (identical to Geyikbayir_24) is ignored but added at the end
+NOTE: Geyikbayir_4 (identical to Geyikbayir_24) is ignored but added at the end
+NOTE: Phaselis_30 (identical to Phaselis_26) is ignored but added at the end
+NOTE: Phaselis_4 (identical to Phaselis_26) is ignored but added at the end
+NOTE: Phaselis_6 (identical to Phaselis_26) is ignored but added at the end
+NOTE: Phaselis_8 (identical to Phaselis_26) is ignored but added at the end
+NOTE: Termessos_26 (identical to Termessos_18) is ignored but added at the end
+NOTE: Termessos_6 (identical to Termessos_18) is ignored but added at the end
+NOTE: Termessos_27 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_28 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_29 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_3 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_30 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_7 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_4 (identical to Termessos_1) is ignored but added at the end
+NOTE: Termessos_5 (identical to Termessos_1) is ignored but added at the end
+NOTE: Kumluca_4 (identical to Kumluca_12) is ignored but added at the end
+NOTE: Geyikbayir_7 (identical to Geyikbayir_13) is ignored but added at the end
+NOTE: Kumluca_5 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_28 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_27 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_26 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_25 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_24 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_23 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_2 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Kumluca_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_5 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_27 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_25 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_21 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Geyikbayir_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Firm_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Firm_145 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Firm_146 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Firm_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_5 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_29 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_27 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_25 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_23 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Phaselis_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_6 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_5 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_4 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_22 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_21 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_20 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_2 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_19 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_18 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_17 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_16 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Demre_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_5 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_27 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_25 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_23 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Bayatbadem_1 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_13 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_3 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_28 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_27 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_25 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_2 (identical to Kumluca_6) is ignored but added at the end
+NOTE: Aksu_1 (identical to Kumluca_6) is ignored but added at the end
+Alignment was printed to ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -888.104
+Optimal log-likelihood: -888.041
+Rate parameters:  A-C: 99.20191  A-G: 10.89849  A-T: 0.62580  C-G: 36.64362  C-T: 77.65539  G-T: 1.00000
+Base frequencies:  A: 0.342  C: 0.158  G: 0.062  T: 0.438
+Proportion of invariable sites: 0.445
+Gamma shape alpha: 0.117
+Parameters optimization took 1 rounds (0.016 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.143 seconds
+
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 373 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         954.292      81  2070.585     2116.234     2388.233
+  2  GTR+F+I       887.786      82  1939.572     1986.510     2261.142
+  3  GTR+F+G4      890.976      82  1945.953     1992.891     2267.522
+  4  GTR+F+I+G4    887.988      83  1941.977     1990.226     2267.468
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 5 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 5 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 19 likelihood is underflown
+Pattern 20 likelihood is underflown
+  5  GTR+F+R2      887.774      83  1941.548     1989.797     2267.039
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
+  6  GTR+F+R3      887.837      85  1945.673     1996.614     2279.008
+ 14  GTR+F+I+R2    887.779      84  1943.558     1993.141     2272.970
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 5 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 12 likelihood is underflown
+Pattern 19 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 34 likelihood is underflown
++I+R3 reinitialized from +I+R2 with factor 0.125
+ 15  GTR+F+I+R3    887.816      86  1947.632     1999.953     2284.887
+ 24  SYM+I         956.286      79  2070.571     2113.711     2380.376
+ 25  SYM+G4        964.663      79  2087.326     2130.466     2397.130
+ 26  SYM+I+G4      956.239      80  2072.477     2116.861     2386.204
+ 27  SYM+R2        956.272      80  2072.544     2116.928     2386.271
+ 46  TVM+F+I       891.989      81  1945.978     1991.628     2263.626
+ 47  TVM+F+G4      896.072      81  1954.145     1999.794     2271.792
+ 48  TVM+F+I+G4    892.160      82  1948.320     1995.258     2269.889
+ 49  TVM+F+R2      891.992      82  1947.985     1994.923     2269.554
+ 68  TVMe+I        968.858      78  2093.716     2135.634     2399.599
+ 69  TVMe+G4       976.668      78  2109.335     2151.253     2415.218
+ 70  TVMe+I+G4     968.405      79  2094.809     2137.949     2404.614
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 6 likelihood is underflown
+ 71  TVMe+R2       968.848      79  2095.697     2138.837     2405.502
+ 90  TIM3+F+I      889.032      80  1938.064     1982.447     2251.790
+ 91  TIM3+F+G4     892.363      80  1944.725     1989.109     2258.452
+ 92  TIM3+F+I+G4   889.270      81  1940.541     1986.190     2258.189
+ 93  TIM3+F+R2     889.048      81  1940.097     1985.746     2257.744
+112  TIM3e+I       966.361      77  2086.722     2127.441     2388.684
+113  TIM3e+G4      973.867      77  2101.733     2142.452     2403.695
+114  TIM3e+I+G4    966.346      78  2088.691     2130.610     2394.575
+115  TIM3e+R2      966.353      78  2088.706     2130.624     2394.589
+134  TIM2+F+I      928.744      80  2017.487     2061.871     2331.213
+135  TIM2+F+G4     937.601      80  2035.203     2079.586     2348.929
+136  TIM2+F+I+G4   928.734      81  2019.468     2065.117     2337.116
+137  TIM2+F+R2     928.737      81  2019.474     2065.124     2337.122
+156  TIM2e+I       981.499      77  2116.998     2157.716     2418.959
+157  TIM2e+G4      992.547      77  2139.095     2179.814     2441.056
+158  TIM2e+I+G4    981.330      78  2118.660     2160.578     2424.543
+159  TIM2e+R2      981.492      78  2118.983     2160.902     2424.866
+178  TIM+F+I       902.650      80  1965.300     2009.684     2279.027
+179  TIM+F+G4      908.765      80  1977.530     2021.914     2291.257
+180  TIM+F+I+G4    902.715      81  1967.430     2013.080     2285.078
+181  TIM+F+R2      902.653      81  1967.306     2012.956     2284.954
+200  TIMe+I        978.286      77  2110.572     2151.291     2412.534
+201  TIMe+G4       988.604      77  2131.207     2171.926     2433.169
+202  TIMe+I+G4     977.844      78  2111.688     2153.606     2417.571
+203  TIMe+R2       978.275      78  2112.550     2154.469     2418.433
+222  TPM3u+F+I     892.940      79  1943.881     1987.020     2253.685
+223  TPM3u+F+G4    896.968      79  1951.936     1995.076     2261.741
+224  TPM3u+F+I+G4  893.291      80  1946.582     1990.966     2260.308
+225  TPM3u+F+R2    892.954      80  1945.909     1990.292     2259.635
+244  TPM3+I        979.974      76  2111.949     2151.489     2409.989
+245  TPM3+G4       987.486      76  2126.973     2166.513     2425.013
+246  TPM3+I+G4     979.921      77  2113.843     2154.561     2415.804
+247  TPM3+R2       979.967      77  2113.934     2154.653     2415.895
+266  TPM2u+F+I     932.734      79  2023.468     2066.608     2333.273
+267  TPM2u+F+G4    943.172      79  2044.343     2087.483     2354.148
+268  TPM2u+F+I+G4  932.749      80  2025.498     2069.881     2339.224
+269  TPM2u+F+R2    932.728      80  2025.456     2069.840     2339.183
+288  TPM2+I        995.316      76  2142.633     2182.173     2440.673
+289  TPM2+G4       1007.572     76  2167.145     2206.685     2465.185
+290  TPM2+I+G4     995.045      77  2144.090     2184.808     2446.051
+291  TPM2+R2       995.312      77  2144.623     2185.342     2446.585
+310  K3Pu+F+I      905.455      79  1968.909     2012.049     2278.714
+311  K3Pu+F+G4     912.195      79  1982.389     2025.529     2292.194
+312  K3Pu+F+I+G4   905.642      80  1971.284     2015.668     2285.011
+313  K3Pu+F+R2     905.457      80  1970.915     2015.298     2284.641
+332  K3P+I         992.994      76  2137.988     2177.528     2436.028
+333  K3P+G4        1005.629     76  2163.258     2202.798     2461.298
+334  K3P+I+G4      992.915      77  2139.830     2180.548     2441.791
+335  K3P+R2        992.982      77  2139.963     2180.682     2441.925
+354  TN+F+I        929.883      79  2017.766     2060.906     2327.571
+355  TN+F+G4       939.056      79  2036.112     2079.252     2345.917
+356  TN+F+I+G4     929.847      80  2019.694     2064.077     2333.420
+357  TN+F+R2       929.884      80  2019.768     2064.152     2333.494
+376  TNe+I         992.557      76  2137.114     2176.655     2435.154
+377  TNe+G4        1002.965     76  2157.931     2197.471     2455.971
+378  TNe+I+G4      991.843      77  2137.686     2178.405     2439.648
+379  TNe+R2        992.538      77  2139.075     2179.794     2441.037
+398  HKY+F+I       933.534      78  2023.068     2064.987     2328.951
+399  HKY+F+G4      943.968      78  2043.935     2085.854     2349.819
+400  HKY+F+I+G4    933.552      79  2025.104     2068.244     2334.908
+401  HKY+F+R2      933.534      79  2025.068     2068.208     2334.873
+420  K2P+I         1007.291     75  2164.582     2202.965     2458.700
+421  K2P+G4        1020.082     75  2190.165     2228.549     2484.283
+422  K2P+I+G4      1007.149     76  2166.298     2205.838     2464.338
+423  K2P+R2        1007.283     76  2166.567     2206.107     2464.607
+442  F81+F+I       940.438      77  2034.875     2075.594     2336.837
+443  F81+F+G4      951.986      77  2057.973     2098.692     2359.935
+444  F81+F+I+G4    940.334      78  2036.667     2078.586     2342.550
+445  F81+F+R2      940.409      78  2036.817     2078.735     2342.700
+464  JC+I          1011.236     74  2170.471     2207.719     2460.668
+465  JC+G4         1023.944     74  2195.888     2233.136     2486.084
+466  JC+I+G4       1011.047     75  2172.094     2210.477     2466.212
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+WARNING: Numerical underflow for lh-branch, use `-safe` option to avoid this warning
+Pattern 4 likelihood is underflown
+Pattern 6 likelihood is underflown
+Pattern 7 likelihood is underflown
+Pattern 9 likelihood is underflown
+Pattern 10 likelihood is underflown
+Pattern 11 likelihood is underflown
+Pattern 15 likelihood is underflown
+Pattern 21 likelihood is underflown
+Pattern 22 likelihood is underflown
+Pattern 23 likelihood is underflown
+Pattern 25 likelihood is underflown
+Pattern 26 likelihood is underflown
+Pattern 31 likelihood is underflown
+Pattern 33 likelihood is underflown
+Pattern 34 likelihood is underflown
+467  JC+R2         1011.233     75  2172.467     2210.851     2466.585
+Akaike Information Criterion:           TIM3+F+I
+Corrected Akaike Information Criterion: TIM3+F+I
+Bayesian Information Criterion:         TIM3+F+I
+Best-fit model: TIM3+F+I chosen according to BIC
+
+All model information printed to ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.model.gz
+CPU time for ModelFinder: 2.440 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 2.482 seconds (0h:0m:2s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -940.996
+2. Current log-likelihood: -891.099
+3. Current log-likelihood: -889.070
+Optimal log-likelihood: -889.037
+Rate parameters:  A-C: 100.00000  A-G: 10.96270  A-T: 1.00000  C-G: 100.00000  C-T: 86.41208  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.342  C: 0.158  G: 0.062  T: 0.438
+Proportion of invariable sites: 0.829
+Parameters optimization took 3 rounds (0.018 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00314694 secs using 99.97% CPU
+Computing ML distances took 0.003234 sec (of wall-clock time) 0.003240 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 9.0963e-05 secs using 100% CPU
+Computing RapidNJ tree took 0.000389 sec (of wall-clock time) 0.000388 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -895.112
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.167 second
+Computing log-likelihood of 98 initial trees ... 0.086 seconds
+Current best score: -876.812
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -876.573
+UPDATE BEST LOG-LIKELIHOOD: -876.573
+UPDATE BEST LOG-LIKELIHOOD: -876.573
+Iteration 10 / LogL: -876.598 / Time: 0h:0m:2s
+Iteration 20 / LogL: -876.812 / Time: 0h:0m:2s
+Finish initializing candidate tree set (7)
+Current best tree score: -876.573 / CPU time: 0.407
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -876.084
+Iteration 30 / LogL: -876.084 / Time: 0h:0m:3s (0h:0m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -876.045
+Iteration 40 / LogL: -876.092 / Time: 0h:0m:3s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 50: -876.043
+Iteration 50 / LogL: -876.043 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 60 / LogL: -876.100 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 70 / LogL: -876.051 / Time: 0h:0m:3s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -876.043
+Iteration 80 / LogL: -876.539 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 90 / LogL: -876.092 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 100 / LogL: -882.271 / Time: 0h:0m:4s (0h:0m:0s left)
+Iteration 110 / LogL: -876.044 / Time: 0h:0m:4s (0h:0m:0s left)
+Iteration 120 / LogL: -876.774 / Time: 0h:0m:4s (0h:0m:0s left)
+Iteration 130 / LogL: -876.537 / Time: 0h:0m:4s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -876.043
+Iteration 140 / LogL: -885.584 / Time: 0h:0m:5s (0h:0m:0s left)
+Iteration 150 / LogL: -876.050 / Time: 0h:0m:5s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 151 ITERATIONS / Time: 0h:0m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -876.043
+Optimal log-likelihood: -876.043
+Rate parameters:  A-C: 93.81837  A-G: 11.54386  A-T: 1.00000  C-G: 93.81837  C-T: 94.65091  G-T: 1.00000
+Base frequencies:  A: 0.342  C: 0.158  G: 0.062  T: 0.438
+Proportion of invariable sites: 0.824
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -876.043
+Total tree length: 0.259
+
+Total number of iterations: 151
+CPU time used for tree search: 2.525 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.697 sec (0h:0m:2s)
+Total CPU time used: 5.015 sec (0h:0m:5s)
+Total wall-clock time used: 5.223 sec (0h:0m:5s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.iqtree
+  Maximum-likelihood tree:       ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.treefile
+  Likelihood distances:          ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.mldist
+  Screen log file:               ../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.log
+
+Date and Time: Thu Mar 13 13:16:57 2025
