@@ -1,0 +1,311 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz, 4 cores, 15 GB RAM
+
+RAxML-NG was called at 13-Mar-2025 13:42:57 as follows:
+
+raxml-ng --msa ../../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model TIM3+I --prefix TIM3+I
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1741891377
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: ../../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+[00:00:00] Loaded alignment with 120 taxa and 373 sites
+
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_26 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_28 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_4 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_24 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_6 are exactly identical!
+WARNING: Sequences Phaselis_16 and Phaselis_2 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_24 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_26 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_4 are exactly identical!
+WARNING: Sequences Aksu_10 and Aksu_12 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_118 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_92 are exactly identical!
+WARNING: Sequences Firm_32 and Firm_58 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_18 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_20 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_6 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_2 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_26 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_28 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_28 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_30 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_6 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_8 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_24 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_26 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_6 are exactly identical!
+WARNING: Sequences Firm_2 and Firm_28 are exactly identical!
+WARNING: Sequences Firm_78 and Firm_82 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_2 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_27 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_28 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_29 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_3 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_30 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_7 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_4 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_5 are exactly identical!
+WARNING: Sequences Firm_70 and Firm_86 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_18 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_4 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_23 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_7 are exactly identical!
+WARNING: Sequences Demre_7 and Demre_8 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_7 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_26 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_24 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_145 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_146 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_29 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_6 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_4 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_22 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_20 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_19 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_18 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_17 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_16 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_13 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_1 are exactly identical!
+WARNING: Duplicate sequences found: 100
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 35 patterns
+
+Partition 0: noname
+Model: TIM3+I
+Alignment sites / patterns: 373 / 35
+Gaps: 0.00 %
+Invariant sites: 89.01 %
+
+
+NOTE: Binary MSA file created: TIM3+I.raxml.rba
+
+Parallelization scheme autoconfig: 4 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 120 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 120 taxa
+Parallel parsimony with 4 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 35 / 140
+[00:00:00] Data distribution: max. searches per worker: 5
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -4520.601360] Initial branch length optimization
+[00:00:00 -3090.062618] Model parameter optimization (eps = 10.000000)
+[00:00:00 -2585.588123] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -1705.192145] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -1427.745245] AUTODETECT spr round 3 (radius: 15)
+[00:00:00 -1256.177269] AUTODETECT spr round 4 (radius: 20)
+[00:00:00 -1256.166757] SPR radius for FAST iterations: 15 (autodetect)
+[00:00:00 -1256.166757] Model parameter optimization (eps = 3.000000)
+[00:00:00 -1238.713548] FAST spr round 1 (radius: 15)
+[00:00:00 -1145.362546] FAST spr round 2 (radius: 15)
+[00:00:00 -1140.674354] Model parameter optimization (eps = 1.000000)
+[00:00:00 -1139.928508] SLOW spr round 1 (radius: 5)
+[00:00:00 -1139.437884] SLOW spr round 2 (radius: 10)
+[00:00:00 -1091.805216] SLOW spr round 3 (radius: 5)
+[00:00:01 -1083.215547] SLOW spr round 4 (radius: 10)
+[00:00:01 -1083.215545] SLOW spr round 5 (radius: 15)
+[00:00:01 -1083.215545] SLOW spr round 6 (radius: 20)
+[00:00:01 -1083.215545] SLOW spr round 7 (radius: 25)
+[00:00:01] [worker #2] ML tree search #3, logLikelihood: -991.174088
+[00:00:01] [worker #3] ML tree search #4, logLikelihood: -955.045216
+[00:00:01 -1062.557344] SLOW spr round 8 (radius: 5)
+[00:00:01] [worker #1] ML tree search #2, logLikelihood: -1011.270129
+[00:00:01 -993.009210] SLOW spr round 9 (radius: 5)
+[00:00:02 -993.008330] SLOW spr round 10 (radius: 10)
+[00:00:02 -993.008200] SLOW spr round 11 (radius: 15)
+[00:00:02 -993.008174] SLOW spr round 12 (radius: 20)
+[00:00:02 -993.008169] SLOW spr round 13 (radius: 25)
+[00:00:02 -993.008168] Model parameter optimization (eps = 0.100000)
+
+[00:00:02] [worker #0] ML tree search #1, logLikelihood: -992.137441
+
+[00:00:02 -4562.907174] Initial branch length optimization
+[00:00:02 -3139.119217] Model parameter optimization (eps = 10.000000)
+[00:00:02 -2607.686930] AUTODETECT spr round 1 (radius: 5)
+[00:00:02 -1661.472362] AUTODETECT spr round 2 (radius: 10)
+[00:00:02 -1393.710853] AUTODETECT spr round 3 (radius: 15)
+[00:00:03 -1213.929923] AUTODETECT spr round 4 (radius: 20)
+[00:00:03 -1159.953637] AUTODETECT spr round 5 (radius: 25)
+[00:00:03] [worker #2] ML tree search #7, logLikelihood: -960.985853
+[00:00:03 -1159.948684] SPR radius for FAST iterations: 20 (autodetect)
+[00:00:03 -1159.948684] Model parameter optimization (eps = 3.000000)
+[00:00:03 -1145.705417] FAST spr round 1 (radius: 20)
+[00:00:03] [worker #3] ML tree search #8, logLikelihood: -1029.407568
+[00:00:03 -1025.005156] FAST spr round 2 (radius: 20)
+[00:00:03 -1002.014102] FAST spr round 3 (radius: 20)
+[00:00:03 -1002.012801] Model parameter optimization (eps = 1.000000)
+[00:00:03 -1001.218264] SLOW spr round 1 (radius: 5)
+[00:00:03 -1001.215935] SLOW spr round 2 (radius: 10)
+[00:00:03] [worker #3] ML tree search #12, logLikelihood: -955.139716
+[00:00:03 -965.093311] SLOW spr round 3 (radius: 5)
+[00:00:03] [worker #1] ML tree search #6, logLikelihood: -955.042785
+[00:00:04] [worker #2] ML tree search #11, logLikelihood: -965.613230
+[00:00:04 -964.594307] SLOW spr round 4 (radius: 10)
+[00:00:04 -964.594306] SLOW spr round 5 (radius: 15)
+[00:00:04 -963.668251] SLOW spr round 6 (radius: 20)
+[00:00:04 -963.662471] SLOW spr round 7 (radius: 25)
+[00:00:04 -963.659361] Model parameter optimization (eps = 0.100000)
+
+[00:00:04] [worker #0] ML tree search #5, logLikelihood: -963.425589
+
+[00:00:04 -4546.186139] Initial branch length optimization
+[00:00:04 -3060.583236] Model parameter optimization (eps = 10.000000)
+[00:00:04 -2558.607472] AUTODETECT spr round 1 (radius: 5)
+[00:00:04] [worker #3] ML tree search #16, logLikelihood: -969.112823
+[00:00:04 -1625.963055] AUTODETECT spr round 2 (radius: 10)
+[00:00:04 -1400.308608] AUTODETECT spr round 3 (radius: 15)
+[00:00:04] [worker #2] ML tree search #15, logLikelihood: -968.041114
+[00:00:04 -1203.489966] AUTODETECT spr round 4 (radius: 20)
+[00:00:05 -1156.011747] AUTODETECT spr round 5 (radius: 25)
+[00:00:05 -1156.009272] SPR radius for FAST iterations: 20 (autodetect)
+[00:00:05 -1156.009272] Model parameter optimization (eps = 3.000000)
+[00:00:05 -1142.147635] FAST spr round 1 (radius: 20)
+[00:00:05 -996.358778] FAST spr round 2 (radius: 20)
+[00:00:05 -964.786338] FAST spr round 3 (radius: 20)
+[00:00:05] [worker #3] ML tree search #20, logLikelihood: -968.021345
+[00:00:05 -964.786309] Model parameter optimization (eps = 1.000000)
+[00:00:05 -963.451199] SLOW spr round 1 (radius: 5)
+[00:00:05 -963.451032] SLOW spr round 2 (radius: 10)
+[00:00:05] [worker #1] ML tree search #10, logLikelihood: -956.084946
+[00:00:05] [worker #2] ML tree search #19, logLikelihood: -965.618334
+[00:00:05 -963.451032] SLOW spr round 3 (radius: 15)
+[00:00:05 -963.451032] SLOW spr round 4 (radius: 20)
+[00:00:06 -963.451032] SLOW spr round 5 (radius: 25)
+[00:00:06 -963.451032] Model parameter optimization (eps = 0.100000)
+
+[00:00:06] [worker #0] ML tree search #9, logLikelihood: -963.444237
+
+[00:00:06 -2722.877688] Initial branch length optimization
+[00:00:06 -1054.423833] Model parameter optimization (eps = 10.000000)
+[00:00:06 -964.691392] AUTODETECT spr round 1 (radius: 5)
+[00:00:06 -955.174146] AUTODETECT spr round 2 (radius: 10)
+[00:00:06 -955.172506] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:06 -955.172506] Model parameter optimization (eps = 3.000000)
+[00:00:06 -955.136637] FAST spr round 1 (radius: 5)
+[00:00:06 -955.134491] Model parameter optimization (eps = 1.000000)
+[00:00:06 -955.133782] SLOW spr round 1 (radius: 5)
+[00:00:06 -955.132826] SLOW spr round 2 (radius: 10)
+[00:00:06 -955.132346] SLOW spr round 3 (radius: 15)
+[00:00:06] [worker #1] ML tree search #14, logLikelihood: -965.634729
+[00:00:06 -954.986108] SLOW spr round 4 (radius: 20)
+[00:00:06 -954.986039] SLOW spr round 5 (radius: 25)
+[00:00:06 -954.986014] Model parameter optimization (eps = 0.100000)
+
+[00:00:06] [worker #0] ML tree search #13, logLikelihood: -954.962793
+
+[00:00:06 -2732.051890] Initial branch length optimization
+[00:00:06 -1058.971560] Model parameter optimization (eps = 10.000000)
+[00:00:07 -966.227161] AUTODETECT spr round 1 (radius: 5)
+[00:00:07 -964.063876] AUTODETECT spr round 2 (radius: 10)
+[00:00:07 -964.062722] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:07 -964.062722] Model parameter optimization (eps = 3.000000)
+[00:00:07 -964.033453] FAST spr round 1 (radius: 5)
+[00:00:07 -964.033429] Model parameter optimization (eps = 1.000000)
+[00:00:07 -964.033429] SLOW spr round 1 (radius: 5)
+[00:00:07] [worker #1] ML tree search #18, logLikelihood: -965.641885
+[00:00:07 -964.033429] SLOW spr round 2 (radius: 10)
+[00:00:07 -964.033429] SLOW spr round 3 (radius: 15)
+[00:00:07 -964.033429] SLOW spr round 4 (radius: 20)
+[00:00:07 -964.033429] SLOW spr round 5 (radius: 25)
+[00:00:07 -964.033429] Model parameter optimization (eps = 0.100000)
+
+[00:00:07] [worker #0] ML tree search #17, logLikelihood: -964.033429
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   P-inv (ML): 0.853635
+   Base frequencies (model): 0.250000 0.250000 0.250000 0.250000 
+   Substitution rates (ML): 61.078857 2.789446 1.000000 61.078857 101.982768 1.000000 
+
+
+Final LogLikelihood: -954.962793
+
+AIC score: 2391.925586 / AICc score: 3282.337800 / BIC score: 3337.025985
+Free parameters (model + branch lengths): 241
+
+WARNING: Best ML tree contains 94 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.bestTree
+All ML trees saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.mlTrees
+Optimized model saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.bestModel
+
+Execution log saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+I/TIM3+I.raxml.log
+
+Analysis started: 13-Mar-2025 13:42:57 / finished: 13-Mar-2025 13:43:05
+
+Elapsed time: 7.681 seconds
+
