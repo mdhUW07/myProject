@@ -1,0 +1,5 @@
+Use of uninitialized value $maxColor in print at ./ogdraw line 241.
+drawing tk arrows
+Use of uninitialized value $transcript_legend in numeric eq (==) at ../lib/GeneMap/Plastome.pm line 1995.
+
+calculating GC content graph...
