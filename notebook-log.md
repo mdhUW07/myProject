@@ -9,6 +9,7 @@ and were collected from 8 different beehives
 in Antalya. Because the files are in FASTA format, not FASTQ, there are no
 quality control measures per base read, therefore, 
 I do not believe a quality control step is necessary.
+Just a small edit
 
 ## Create an indpendent computer environment in conda to make managing the workflow easier
 
