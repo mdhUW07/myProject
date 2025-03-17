@@ -1,0 +1,287 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz, 4 cores, 15 GB RAM
+
+RAxML-NG was called at 17-Mar-2025 13:51:12 as follows:
+
+raxml-ng --msa ../../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model TIM3+F+I --prefix TIM3_F_I --redo --tree pars{98}
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (98)
+  random seed: 1742237472
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+[00:00:00] Reading alignment from file: ../../alignmentmethods/muscle/Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+[00:00:00] Loaded alignment with 120 taxa and 373 sites
+
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_26 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_28 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_4 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_24 are exactly identical!
+WARNING: Sequences Bayatbadem_2 and Bayatbadem_6 are exactly identical!
+WARNING: Sequences Phaselis_16 and Phaselis_2 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_24 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_26 are exactly identical!
+WARNING: Sequences Aksu_14 and Aksu_4 are exactly identical!
+WARNING: Sequences Aksu_10 and Aksu_12 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_118 are exactly identical!
+WARNING: Sequences Aksu_8 and Firm_92 are exactly identical!
+WARNING: Sequences Firm_32 and Firm_58 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_18 are exactly identical!
+WARNING: Sequences Bayatbadem_16 and Bayatbadem_20 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_6 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_2 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_26 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_28 are exactly identical!
+WARNING: Sequences Geyikbayir_24 and Geyikbayir_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_28 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_30 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_4 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_6 are exactly identical!
+WARNING: Sequences Phaselis_26 and Phaselis_8 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_24 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_26 are exactly identical!
+WARNING: Sequences Termessos_18 and Termessos_6 are exactly identical!
+WARNING: Sequences Firm_2 and Firm_28 are exactly identical!
+WARNING: Sequences Firm_78 and Firm_82 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_2 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_27 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_28 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_29 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_3 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_30 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_7 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_4 are exactly identical!
+WARNING: Sequences Termessos_1 and Termessos_5 are exactly identical!
+WARNING: Sequences Firm_70 and Firm_86 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_18 are exactly identical!
+WARNING: Sequences Kumluca_12 and Kumluca_4 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_23 are exactly identical!
+WARNING: Sequences Geyikbayir_13 and Geyikbayir_7 are exactly identical!
+WARNING: Sequences Demre_7 and Demre_8 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_7 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_26 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_24 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Kumluca_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Geyikbayir_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_145 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_146 are exactly identical!
+WARNING: Sequences Kumluca_6 and Firm_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_29 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Phaselis_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_6 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_4 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_22 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_21 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_20 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_19 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_18 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_17 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_16 are exactly identical!
+WARNING: Sequences Kumluca_6 and Demre_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_5 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_23 are exactly identical!
+WARNING: Sequences Kumluca_6 and Bayatbadem_1 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_13 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_3 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_28 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_27 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_25 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_2 are exactly identical!
+WARNING: Sequences Kumluca_6 and Aksu_1 are exactly identical!
+WARNING: Duplicate sequences found: 100
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 35 patterns
+
+Partition 0: noname
+Model: TIM3+FC+I
+Alignment sites / patterns: 373 / 35
+Gaps: 0.00 %
+Invariant sites: 89.01 %
+
+
+NOTE: Binary MSA file created: TIM3_F_I.raxml.rba
+
+Parallelization scheme autoconfig: 4 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 98 parsimony starting tree(s) with 120 taxa
+Parallel parsimony with 4 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 35 / 140
+[00:00:00] Data distribution: max. searches per worker: 25
+
+Starting ML tree search with 98 distinct starting trees
+
+[00:00:00] [worker #3] ML tree search #4, logLikelihood: -877.604339
+[00:00:00] [worker #1] ML tree search #2, logLikelihood: -877.806836
+[00:00:01] [worker #2] ML tree search #3, logLikelihood: -877.856582
+[00:00:01] [worker #0] ML tree search #1, logLikelihood: -877.008860
+[00:00:01] [worker #3] ML tree search #8, logLikelihood: -877.136553
+[00:00:01] [worker #1] ML tree search #6, logLikelihood: -894.894033
+[00:00:01] [worker #2] ML tree search #7, logLikelihood: -879.542398
+[00:00:02] [worker #0] ML tree search #5, logLikelihood: -888.132628
+[00:00:02] [worker #3] ML tree search #12, logLikelihood: -879.784642
+[00:00:02] [worker #1] ML tree search #10, logLikelihood: -877.008785
+[00:00:02] [worker #2] ML tree search #11, logLikelihood: -877.806258
+[00:00:02] [worker #0] ML tree search #9, logLikelihood: -881.360891
+[00:00:03] [worker #3] ML tree search #16, logLikelihood: -877.008729
+[00:00:03] [worker #1] ML tree search #14, logLikelihood: -877.008755
+[00:00:03] [worker #2] ML tree search #15, logLikelihood: -877.009446
+[00:00:03] [worker #0] ML tree search #13, logLikelihood: -895.787899
+[00:00:03] [worker #1] ML tree search #18, logLikelihood: -877.601951
+[00:00:04] [worker #3] ML tree search #20, logLikelihood: -888.635501
+[00:00:04] [worker #2] ML tree search #19, logLikelihood: -877.806908
+[00:00:04] [worker #0] ML tree search #17, logLikelihood: -877.009420
+[00:00:04] [worker #1] ML tree search #22, logLikelihood: -880.830509
+[00:00:04] [worker #3] ML tree search #24, logLikelihood: -877.887082
+[00:00:04] [worker #0] ML tree search #21, logLikelihood: -877.137007
+[00:00:04] [worker #2] ML tree search #23, logLikelihood: -877.851968
+[00:00:05] [worker #1] ML tree search #26, logLikelihood: -888.930287
+[00:00:05] [worker #3] ML tree search #28, logLikelihood: -877.010216
+[00:00:05] [worker #0] ML tree search #25, logLikelihood: -889.121664
+[00:00:05] [worker #2] ML tree search #27, logLikelihood: -877.805051
+[00:00:06] [worker #1] ML tree search #30, logLikelihood: -877.733824
+[00:00:06] [worker #3] ML tree search #32, logLikelihood: -877.822683
+[00:00:06] [worker #2] ML tree search #31, logLikelihood: -877.805175
+[00:00:06] [worker #0] ML tree search #29, logLikelihood: -881.589613
+[00:00:06] [worker #1] ML tree search #34, logLikelihood: -877.009697
+[00:00:07] [worker #3] ML tree search #36, logLikelihood: -877.009195
+[00:00:07] [worker #2] ML tree search #35, logLikelihood: -880.951700
+[00:00:07] [worker #3] ML tree search #40, logLikelihood: -877.522176
+[00:00:07] [worker #0] ML tree search #33, logLikelihood: -877.135699
+[00:00:07] [worker #1] ML tree search #38, logLikelihood: -877.009158
+[00:00:08] [worker #2] ML tree search #39, logLikelihood: -888.661135
+[00:00:08] [worker #1] ML tree search #42, logLikelihood: -888.925957
+[00:00:08] [worker #0] ML tree search #37, logLikelihood: -883.358123
+[00:00:08] [worker #3] ML tree search #44, logLikelihood: -889.573345
+[00:00:08] [worker #2] ML tree search #43, logLikelihood: -877.887539
+[00:00:09] [worker #0] ML tree search #41, logLikelihood: -877.602004
+[00:00:09] [worker #1] ML tree search #46, logLikelihood: -877.009277
+[00:00:09] [worker #2] ML tree search #47, logLikelihood: -877.008746
+[00:00:09] [worker #3] ML tree search #48, logLikelihood: -876.991137
+[00:00:10] [worker #0] ML tree search #45, logLikelihood: -877.008966
+[00:00:10] [worker #2] ML tree search #51, logLikelihood: -877.010044
+[00:00:10] [worker #3] ML tree search #52, logLikelihood: -877.008516
+[00:00:10] [worker #1] ML tree search #50, logLikelihood: -888.138079
+[00:00:10] [worker #0] ML tree search #49, logLikelihood: -877.009267
+[00:00:11] [worker #1] ML tree search #54, logLikelihood: -898.774606
+[00:00:11] [worker #3] ML tree search #56, logLikelihood: -877.009872
+[00:00:11] [worker #2] ML tree search #55, logLikelihood: -888.130057
+[00:00:11] [worker #0] ML tree search #53, logLikelihood: -888.642881
+[00:00:12] [worker #1] ML tree search #58, logLikelihood: -877.009601
+[00:00:12] [worker #2] ML tree search #59, logLikelihood: -877.842709
+[00:00:12] [worker #3] ML tree search #60, logLikelihood: -877.008529
+[00:00:12] [worker #0] ML tree search #57, logLikelihood: -888.778910
+[00:00:13] [worker #2] ML tree search #63, logLikelihood: -877.010356
+[00:00:13] [worker #1] ML tree search #62, logLikelihood: -884.923786
+[00:00:13] [worker #3] ML tree search #64, logLikelihood: -881.686262
+[00:00:13] [worker #0] ML tree search #61, logLikelihood: -877.010862
+[00:00:13] [worker #2] ML tree search #67, logLikelihood: -879.409384
+[00:00:13] [worker #1] ML tree search #66, logLikelihood: -889.464837
+[00:00:14] [worker #3] ML tree search #68, logLikelihood: -877.010382
+[00:00:14] [worker #2] ML tree search #71, logLikelihood: -881.750081
+[00:00:14] [worker #0] ML tree search #65, logLikelihood: -881.583759
+[00:00:14] [worker #1] ML tree search #70, logLikelihood: -881.285406
+[00:00:14] [worker #3] ML tree search #72, logLikelihood: -888.930320
+[00:00:15] [worker #0] ML tree search #69, logLikelihood: -889.468884
+[00:00:15] [worker #2] ML tree search #75, logLikelihood: -888.925498
+[00:00:15] [worker #1] ML tree search #74, logLikelihood: -877.009556
+[00:00:15] [worker #3] ML tree search #76, logLikelihood: -886.952082
+[00:00:15] [worker #0] ML tree search #73, logLikelihood: -877.008810
+[00:00:15] [worker #2] ML tree search #79, logLikelihood: -888.636448
+[00:00:16] [worker #1] ML tree search #78, logLikelihood: -877.136517
+[00:00:16] [worker #3] ML tree search #80, logLikelihood: -882.388829
+[00:00:16] [worker #2] ML tree search #83, logLikelihood: -877.138647
+[00:00:16] [worker #0] ML tree search #77, logLikelihood: -877.805544
+[00:00:16] [worker #1] ML tree search #82, logLikelihood: -888.652923
+[00:00:17] [worker #3] ML tree search #84, logLikelihood: -892.824731
+[00:00:17] [worker #2] ML tree search #87, logLikelihood: -878.178966
+[00:00:17] [worker #0] ML tree search #81, logLikelihood: -885.323714
+[00:00:17] [worker #1] ML tree search #86, logLikelihood: -877.853479
+[00:00:17] [worker #3] ML tree search #88, logLikelihood: -887.837923
+[00:00:17] [worker #2] ML tree search #91, logLikelihood: -877.827230
+[00:00:18] [worker #0] ML tree search #85, logLikelihood: -877.008958
+[00:00:18] [worker #1] ML tree search #90, logLikelihood: -890.402799
+[00:00:19] [worker #3] ML tree search #92, logLikelihood: -883.131643
+[00:00:19] [worker #2] ML tree search #95, logLikelihood: -877.522104
+[00:00:19] [worker #0] ML tree search #89, logLikelihood: -877.009203
+[00:00:19] [worker #1] ML tree search #94, logLikelihood: -877.008648
+[00:00:19] [worker #3] ML tree search #96, logLikelihood: -877.467955
+[00:00:20] [worker #1] ML tree search #98, logLikelihood: -889.459924
+[00:00:20] [worker #0] ML tree search #93, logLikelihood: -881.262239
+[00:00:21] [worker #0] ML tree search #97, logLikelihood: -877.009456
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   P-inv (ML): 0.818931
+   Base frequencies (empirical): 0.350559 0.147609 0.062668 0.439164 
+   Substitution rates (ML): 103.983439 12.058211 1.000000 103.983439 106.212821 1.000000 
+
+
+Final LogLikelihood: -876.991137
+
+AIC score: 2241.982274 / AICc score: 3176.044774 / BIC score: 3198.847409
+Free parameters (model + branch lengths): 244
+
+WARNING: Best ML tree contains 95 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.bestTree
+All ML trees saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.mlTrees
+Optimized model saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.bestModel
+
+Execution log saved to: /home/michael-hall/Desktop/myProject/raxml/TIM3+F+I/TIM3_F_I.raxml.log
+
+Analysis started: 17-Mar-2025 13:51:12 / finished: 17-Mar-2025 13:51:33
+
+Elapsed time: 21.117 seconds
+
