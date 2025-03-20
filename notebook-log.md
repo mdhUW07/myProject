@@ -644,7 +644,7 @@ Done
 ```
 
 
-# Visualize mtDNA with Chlorobox
+# Visualize mtDNA with Chlorobox with BombusTerresttrismtDNA.gb file in data directory as input
 
 https://chlorobox.mpimp-golm.mpg.de/OGDraw.html
 
