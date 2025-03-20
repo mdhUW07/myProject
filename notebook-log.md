@@ -174,7 +174,7 @@ between genetic mutation or single nucleotide polymorphism occured.
 
 
 ```
-Rscript Haplotypes.R ../data/outfile.fas homolog.csv
+Haplotypes.R 
 ```
 
 ![alt2](/Pics/homolog-page-2.png)
@@ -182,7 +182,7 @@ Rscript Haplotypes.R ../data/outfile.fas homolog.csv
 # Estimating a Distance based phylogenetic tree and Parsimony based phylogenetic tree with R
 
 ```
-Rscript DistanceBased.R ../data/outfile.fas
+DistanceBased.R
 
 ```
 The RScript computes a pairwise distance matrix from the 120 DNA sequences of the cyt B gene of the Terrestris Bombus using a model of evolution from Tamura (1992). The model assumes
@@ -196,7 +196,7 @@ The Rscript performs the neighbor-joining tree estimation of Saitou and Nei (198
 
 
 ```
-Rscript ParsimonyBasedTree.R ../data/outfile.fas
+ParsimonyBasedTree.R 
 
 ```
 In the parsimony based method of computing a phylogenetic tree the parsimony ratchet is a preferred way to search for the best parsimony tree. After returning a parsinomy score
@@ -206,7 +206,7 @@ on the initial tree, the optimal parsimony function returns a tree after using N
 
 
 ```
-Rscript AssessingQualityofFitNJ.R
+AssessingQualityofFitNJ.R
 
 ```
 After using the Neighbor-Joining Method to construct the pairwise distance matrix, we can assess it fit by compaing the original distances in the matrix to the distances found on 
