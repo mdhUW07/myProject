@@ -242,9 +242,7 @@ and change the settings to visulalize the tree better/
 figtree Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.bestTree
 
 ```
-You can view the initial starting tree and the best tree
-
-![alt](/Pics/Bombus_terrestris_dalmatinus-alligned-muscle.fasta.raxml.startTree.jpg)
+You can view the best tree
 
 ![alt](/Pics/Raxml_Muslce_align_Best_Tree.jpg)
 
