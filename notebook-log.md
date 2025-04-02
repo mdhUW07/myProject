@@ -650,3 +650,14 @@ https://chlorobox.mpimp-golm.mpg.de/OGDraw.html
 
 ![alt](/Pics/BombusmtDNA.jpg)
 
+# Haplotype Network Distribution color coded by independent samples
+
+```
+Rscript Haplonet.R
+
+```
+
+![alt](/Pics/Haplonet.png)
+
+
+
