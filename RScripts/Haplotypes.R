@@ -11,6 +11,8 @@ dna <- fasta2DNAbin("outfile.fas")
 
 h <- haplotype(dna)
 
+ape::alview(h,file = "homologallview.txt")
+
 #Fit Kimura 2 parameter model with halplotypes
 D_K81 = dist.dna(h,model="K80")
 tree <- nj(D_K81)

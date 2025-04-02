@@ -177,7 +177,8 @@ between genetic mutation or single nucleotide polymorphism occured.
 Haplotypes.R 
 ```
 
-![alt2](/Pics/homolog-page-2.png)
+![alt2](/Pics/HomologSeq.png)
+
 
 # Estimating a Distance based phylogenetic tree and Parsimony based phylogenetic tree with R
 
