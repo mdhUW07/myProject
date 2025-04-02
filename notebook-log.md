@@ -168,9 +168,10 @@ clustalw -infile=Desktop/myProject/data/outfile.fas -outfile=Bombus_terrestris_a
 ## The aligned sequences are independently given per species sequence
 
 # Haplotype R Script
-A Haplotype is a group of DNA variations from the cyt b gene that are inherited from a single parent. It comes from the word "haploid" and by examining these haplotypes reserachers 
-can identify patterns of genetic variation associated with disease states. In this case its just a Bumble Bee but the principle is the same when studying genetic disease associations. The R-Script produces a haplotype matrix with the rows as haplotype groups, in this case there are 20 unique haplotypes and the columns are the position in the sequence where the change 
-between genetic mutation or single nucleotide polymorphism occured.
+A Haplotype is a group of DNA variations bthat are inherited together from a single parent. It comes from the word "haploid" and by examining these haplotypes reserachers 
+can identify patterns of genetic variation associated with disease states. The R-Script produces a haplotype matrix with the rows as haplotype groups, in this case there are 20 unique haplotypes 
+and the columns are the position in the sequence however how this protein is encoded. The haplotye diversity is a probability measure that determines how likely two randomly chosen haplotypes will be the same.
+In this case the probability measure that two randomly chosen haplotypes in this population will be different is 77.37%. This is a good indicator of how diverse the poulation under study is. 
 
 
 ```
