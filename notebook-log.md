@@ -67,6 +67,12 @@ We are following the steps on the Installation.
     conda install bioconda::muscle
     conda install bioconda::clustalw
     conda install bioconda::raxml-ng
+    sudo apt install texlive-latex-base
+    sudo apt install texlive-latex-recommended
+    conda install bioconda::seqmagick
+    conda install bioconda::tracer
+
+
 ```
 ## Show list of available software packages and their versions in your phyluce environment
 ```
@@ -661,5 +667,33 @@ Rscript Haplonet.R
 
 ![alt](/Pics/Haplonet.png)
 
+# MrBayes with Exponential Priors
+
+Download install and make MrBayes
+
+```
+
+git clone --depth=1 https://github.com/NBISweden/MrBayes.git
+cd MrBayes
+./configure
+make 
+
+```
+Initialize MrBayes and execute the nexus file
+
+```
+
+mb execute Bombus_output.nex
+
+```
+
+Run Tracer program on .p file output
+
+```
+tracer
+```
+
+
+![alt](/Pics/Tracer-1.png)
 
 
