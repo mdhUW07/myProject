@@ -128,8 +128,16 @@ end;
 
 begin mrbayes;
 	set autoclose=yes;
-	lset rates=gamma;
+#Set the model 
+#https://gist.github.com/brantfaircloth/895282
+#https://isu-molphyl.github.io/EEOB563/computer_labs/lab5/MrBayes.html
+#nst = 1,2,6,mixed
+#lset for GTR + I model
+	lset nst=6 rates=propinv;
+#Prior distribution for rate heterogeneity 
 	prset shapepr=exponential(10.0);
+#Flat Dirichlet prior on 4 nucleotide base frequencies a Default setting
+        statefreqpr=dirichlet(1,1,1,1);
 	mcmcp nruns=1 nchains=1 printfreq=100;
 	mcmc ngen=20000 samplefreq=100;
 end;

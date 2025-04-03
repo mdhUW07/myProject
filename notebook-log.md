@@ -697,3 +697,20 @@ tracer
 ![alt](/Pics/Tracer-1.png)
 
 
+Choose K2P model
+
+```
+
+lset nst=2                           
+prset statefreqpr=fixed(equal)
+
+```
+
+![alt](/Pics/Clade credibility values-1.png)
+![alt](/Pics/Clade credibility values-2.png)
+![alt](/Pics/Clade credibility values-3.png)
+![alt](/Pics/Clade credibility values-4.png)
+![alt](/Pics/Clade credibility values-5.png)
+
+
+
