@@ -716,5 +716,7 @@ prset statefreqpr=fixed(equal)
 
 ![alt](/Pics/CC5.png)
 
+Estimated Parameter Statistics with 95% confidence intervals and effective samples sizes
 
+![alt](/Pics/95HPD.png)
 
