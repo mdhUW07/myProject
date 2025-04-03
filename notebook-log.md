@@ -707,9 +707,13 @@ prset statefreqpr=fixed(equal)
 ```
 
 ![alt](/Pics/Clade credibility values-1.png)
+
 ![alt](/Pics/Clade credibility values-2.png)
+
 ![alt](/Pics/Clade credibility values-3.png)
+
 ![alt](/Pics/Clade credibility values-4.png)
+
 ![alt](/Pics/Clade credibility values-5.png)
 
 
