@@ -1,0 +1,50 @@
+Default model settings:                                                       
+                                                                                 
+   Parameter        Options                      Current Setting                 
+   ------------------------------------------------------------------            
+   Tratiopr         Beta/Fixed                   Beta(1.0,1.0)
+   Revmatpr         Dirichlet/Fixed              Dirichlet(1.0,1.0,1.0,1.0,1.0,1.0)
+   Aamodelpr        Fixed/Mixed                  Fixed(Poisson)
+   Aarevmatpr       Dirichlet/Fixed              Dirichlet(1.0,1.0,...)
+   Omegapr          Dirichlet/Fixed              Dirichlet(1.0,1.0)
+   Ny98omega1pr     Beta/Fixed                   Beta(1.0,1.0)
+   Ny98omega3pr     Uniform/Exponential/Fixed    Exponential(1.0)
+   M3omegapr        Exponential/Fixed            Exponential
+   Codoncatfreqs    Dirichlet/Fixed              Dirichlet(1.0,1.0,1.0)
+   Statefreqpr      Dirichlet/Fixed              Dirichlet(1.0,1.0,1.0,1.0)
+   Shapepr          Uniform/Exponential/Fixed    Exponential(1.0)
+   Ratecorrpr       Uniform/Fixed                Uniform(-1.0,1.0)
+   Pinvarpr         Uniform/Fixed                Uniform(0.0,1.0)
+   Covswitchpr      Uniform/Exponential/Fixed    Uniform(0.0,100.0)
+   Symdirihyperpr   Uniform/Exponential/Fixed    Fixed(Infinity)
+   Topologypr       Uniform/Constraints/Fixed/   Uniform
+                    Speciestree                  
+   Brlenspr         Unconstrained/Clock/Fixed    Unconstrained:GammaDir(1.0,0.100,1.0,1.0)
+   Treeagepr        Gamma/Uniform/Fixed/         Gamma(1.00,1.00)
+                    Truncatednormal/Lognormal/   
+                    Offsetlognormal/Offsetgamma/ 
+                    Offsetexponential            
+   Speciationpr     Uniform/Exponential/Fixed    Exponential(10.0)
+   Extinctionpr     Beta/Fixed                   Beta(1.0,1.0)
+   Fossilizationpr  Beta/Fixed                   Beta(1.0,1.0)
+   SampleStrat      Random/Diversity/Cluster/    Random
+                    FossilTip                    
+   Sampleprob       <number>                     1.00000000
+   Popsizepr        Lognormal/Gamma/Uniform/     Gamma(1.0,10.0)
+                    Normal/Fixed                 
+   Popvarpr         Equal/Variable               Equal
+   Nodeagepr        Unconstrained/Calibrated     Unconstrained
+   Clockratepr      Fixed/Normal/Lognormal/      Fixed(1.00)
+                    Exponential/Gamma            
+   Clockvarpr       Strict/Cpp/TK02/WN/IGR/ILN   Strict
+   Cppratepr        Fixed/Exponential            Exponential(0.10)
+   Cppmultdevpr     Fixed                        Fixed(0.40)
+   TK02varpr        Fixed/Exponential/Uniform    Exponential(1.00)
+   WNvarpr          Fixed/Exponential/Uniform    Exponential(10.00)
+   IGRvarpr         Fixed/Exponential/Uniform    Exponential(1.00)
+   ILNvarpr         Fixed/Exponential/Uniform    Exponential(1.00)
+   Mixedvarpr       Fixed/Exponential/Uniform    Exponential(1.00)
+   Ratepr           Fixed/Variable=Dirichlet     Fixed
+   Generatepr       Fixed/Variable=Dirichlet     Fixed
+                                                                                 
+   ------------------------------------------------------------------ 
