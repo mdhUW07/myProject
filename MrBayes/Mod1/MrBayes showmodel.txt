@@ -1,0 +1,50 @@
+MrBayes > showmodel
+
+   Model settings:
+
+      Data not partitioned --
+         Datatype  = DNA
+         Nucmodel  = 4by4
+         Nst       = 1
+         Covarion  = No
+         # States  = 4
+                     State frequencies have a Dirichlet prior
+                     (1.00,1.00,1.00,1.00)
+         Rates     = Gamma
+                     The distribution is approximated using 4 categories.
+                     Shape parameter is exponentially
+                     distributed with parameter (10.00).
+
+   Active parameters: 
+
+      Parameters
+      ---------------------
+      Statefreq           1
+      Shape               2
+      Ratemultiplier      3
+      Topology            4
+      Brlens              5
+      ---------------------
+
+      1 --  Parameter  = Pi
+            Type       = Stationary state frequencies
+            Prior      = Dirichlet
+
+      2 --  Parameter  = Alpha
+            Type       = Shape of scaled gamma distribution of site rates
+            Prior      = Exponential(10.00)
+
+      3 --  Parameter  = Ratemultiplier
+            Type       = Partition-specific rate multiplier
+            Prior      = Fixed(1.0)
+
+      4 --  Parameter  = Tau
+            Type       = Topology
+            Prior      = All topologies equally probable a priori
+            Subparam.  = V
+
+      5 --  Parameter  = V
+            Type       = Branch lengths
+            Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+
