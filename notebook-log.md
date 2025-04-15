@@ -98,7 +98,7 @@ to compute a UPGMA a rooted tree unweighted pair group method with arithmetic me
 
 
 ```
-t_coffee outfile.fas 
+t_coffee data/outfile.fas 
 
 ```
 
@@ -164,7 +164,7 @@ This alignmnet method produces the output file used in the maximum likelihood ra
 best model based on information criteria.
 
 ```
-muscle -align ../outfile.fas -output Bombus_terrestris_dalmatinus-alligned-muscle.fasta
+muscle -align data/outfile.fas -output Bombus_terrestris_dalmatinus-alligned-muscle.fasta
 
 ```
 
@@ -174,7 +174,7 @@ computes similarity scores between sequences which produces pairwise alignments.
 great alignment. After a pairwise matrix if formed a neighbor-joining method is employed to make a guide tree. It is accurate, and consistent when compared against other softwares such as 
 MAFFT, and T-Coffee. 
 ```
-clustalw -infile=Desktop/myProject/data/outfile.fas -outfile=Bombus_terrestris_aligned_sequences.fasta -output=fasta
+clustalw -infile=myProject/data/outfile.fas -outfile=Bombus_terrestris_aligned_sequences.fasta -output=fasta
 ```
 ## The aligned sequences are independently given per species sequence
 
