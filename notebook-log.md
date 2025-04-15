@@ -78,6 +78,12 @@ We are following the steps on the Installation.
 ```
     conda list
 ```
+## If you want to clone my repository which has the main sequencing file you can but there is a lot of unecessary information
+
+```
+git clone https://github.com/mdhUW07/myProject
+
+```
 
 # Aligning my data with t_coffee
 Multiple sequence alignment of the cyt b sequences is a prerequesite for phylogentic analysis. T_coffee is a free open source software used for multiple sequence alignment, which
@@ -88,7 +94,6 @@ require a deeper understanding of the underlying algorithms. In order to achieve
 can see there are 120 DNA sequences running on 8 core processors with the FASTA file as an input, with the manual gap penalities are set to zero by default and are only applied after the global alignment method
 has been selected either by choice or by default. However the gap penalties can be customized accordingly can be changing via the flag arguments -gapopen and -gapext. The guide tree is made by using a neighbor jointing method by default, but is possible
 to compute a UPGMA a rooted tree unweighted pair group method with arithmetic mean.
-
 
 
 
