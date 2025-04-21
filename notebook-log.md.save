@@ -213,14 +213,6 @@ ape::alview(h,file = "homologallview.txt")
 ```
 DistanceBased.R
 
-library(adegenet)
-library(phangorn)
-library(pegas)
-library(devtools)
-
-
-
-dna <- fasta2DNAbin(file="outfile.fas")
 
 #Compute genetic distances using Kimura 2 parameter model which allows for different rates of transitions and transversions
 
@@ -251,10 +243,6 @@ The Rscript performs the neighbor-joining tree estimation of Saitou and Nei (198
 ```
 ParsimonyBasedTree.R 
 
-library(adegenet)
-library(phangorn)
-library(pegas)
-
 #Read fasta file
 dna <- fasta2DNAbin(file="outfile.fas")
 
@@ -273,6 +261,7 @@ tre.pars <- optim.parsimony(tre.ini,dna2)
 #Plot the tree
 plot(tre.pars,cex=0.6)
 title("A Simple Rooted Parsimonious Tree for Terrestris Bombus")
+
 ```
 In the parsimony based method of computing a phylogenetic tree the parsimony ratchet is a preferred way to search for the best parsimony tree. After returning a parsinomy score
 on the initial tree, the optimal parsimony function returns a tree after using NNI rearrangements. 
@@ -283,29 +272,6 @@ on the initial tree, the optimal parsimony function returns a tree after using N
 ```
 AssessingQualityofFitNJ.R
 
-library(adegenet)
-library(phangorn)
-library(pegas)
-
-
-
-dna <- fasta2DNAbin(file="outfile.fas")
-
-#Compute genetic distances using Kimura 2 parameter evoulutionary model which allows for different rates of transistions and transversions, heterogenous base frequencies and
-#between site variation of the substitution rate.
-D <- dist.dna(dna, model="K80")
-class(D)
-
-
-
-
-
-#Assessing the quality of a phylogeny
-x <- as.vector(D)
-y <- as.vector(as.dist(cophenetic(tre)))
-plot(x,y, xlab = "original pairwise distances", ylab= "pairwise disances on the tree", main = "Is Neighbor Joining method appropriate?",pch=20,col=transp("black",.1),cex=3)
-abline(lm(y~x),col="red",lwd=7)
-cor(x,y)^2
 ```
 After using the Neighbor-Joining Method to construct the pairwise distance matrix, we can assess it fit by compaing the original distances in the matrix to the distances found on 
 the pylogenetic tree. The two distance measurements are strongly correlated at 0.9396.
