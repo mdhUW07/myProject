@@ -328,6 +328,48 @@ Perform an all-in-one analysis (ML tree search + non-parametric bootstrap) (10 r
 empirical aminoacid frequencies from alignment, 8 discrete GAMMA categories, 200 bootstrap replicates):
 
 
+
+# GGTREE and GGPLOT2 to create a dynamic phylogenetic tree at the sample level
+
+
+```
+GGTREE.R
+
+
+library(adegenet)
+library(phangorn)
+library(pegas)
+library(ggtree)
+library(ggplot2)
+
+
+dna <- fasta2DNAbin(file="outfile.fas")
+
+
+an<-as.alignment(dna)  #converting DNAbin to alignment format
+nm<-as.matrix(an)       #converting alignment to matrix
+dnamat<-as.matrix(labels(dna)) #extraction of the sample names
+dna
+class(dna)
+ddna<-dist.dna(dna, model = "K80") #computing distance by ape package with K80 model derived by Kimura (1980)
+tree<-nj(ddna)
+ggt<-ggtree(tree, cex = 0.8, aes(color=branch.length))+scale_color_continuous(high='lightskyblue1',low='coral4')+geom_tiplab(align=TRUE, size=2)+geom_treescale(y = - 5, color = "coral4", fontsize = 4)
+
+#The shared S2_Appendix.fas dataset is not contained missing value, different letter (N, R, K etc.) or gaps.
+#If your sequences have gaps (-) or N, Y, K, R letter (IUPAC nucleotide code), 
+#you have to add additional color in "color argument" below.
+#For example, "rep("green",1,)" for gaps, "rep("pink",1,)" for N letter etc.
+#However, you have to delete or fix the gaps to be able to do other analysis.
+#If you have big data set, you can modified "width" and "height" arguments below for better images.
+
+njmsaplot<-msaplot(ggt, dna, offset = 0.009, width=1, height = 0.5, color = c(rep("rosybrown", 1), rep("sienna1", 1), rep("lightgoldenrod1", 1), rep("lightskyblue1", 1)))
+njmsaplot
+
+
+```
+
+![alt](/Pics/GGTREEPHYLNET.png)
+
 ```
 raxml-ng --all -msa Bombus_terrestris_dalmatinus-alligned-muscle.fasta --model LG+G8+F --tree pars{10} --bs-trees 200
 
