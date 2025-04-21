@@ -753,6 +753,28 @@ https://chlorobox.mpimp-golm.mpg.de/OGDraw.html
 ```
 Rscript Haplonet.R
 
+library(adegenet)
+library(ggtree)
+library(phangorn)
+library(pegas)
+library(ggplot2)
+
+dna <- fasta2DNAbin("outfile.fas")
+
+h<-pegas::haplotype(dna, strict = FALSE, trailingGapsAsN = TRUE)#extracts haplotypes from DNAbin object
+hname<-paste("H", 1:nrow(h), sep = "")
+rownames(h)= paste(hname)
+net<-haploNet(h, d = NULL, getProb = TRUE)#constructs the haplotype network
+net
+ind.hap<-with(
+  utils::stack(setNames(attr(h, "index"), rownames(h))),
+  table(hap=ind, individuals=rownames(dna))
+)
+
+par(mar=c(0.001,0.001,0.001,20))
+plot(net, size=attr(net, "freq"), scale.ratio = 3, cex = 0.6, labels=TRUE, pie = ind.hap, show.mutation=1, font=2, fast=TRUE)
+legend(x= -63,y=-50, colnames(ind.hap), fill=rainbow(ncol(ind.hap)), cex=0.40, ncol=12, x.intersp=0.3, text.width=11)
+
 ```
 
 ![alt](/Pics/Haplonet.png)
