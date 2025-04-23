@@ -833,11 +833,18 @@ cd MrBayes
 make 
 
 ```
+
+```
+library(ape)
+data = read.FASTA(file = "outfile.fas",type = "dna")
+write.nexus.data(x = data, file = "Bombus_output.nexus",format = "dna")
+
+```
 Initialize MrBayes and execute the nexus file
 
 ```
 
-mb execute Bombus_output.nex
+mb execute Bombus_output.nexus
 
 ```
 
