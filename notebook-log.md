@@ -1004,6 +1004,11 @@ BEGIN CHARACTERS;
   ;
 END;
 
+begin mrbayes;
+	lset nst = 2
+	prset statefreqpr=fixed(equal)
+END;
+
 ```
 Initialize MrBayes and execute the nexus file
 
