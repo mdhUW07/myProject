@@ -1032,12 +1032,9 @@ tracer
 ![alt](/Pics/3MCMC-1.jpg)
 
 
-Choose K2P model
+The tracer program can show the marginal densities of the sum of the total length of the optimized phylogenetic tree and the ratio of transitions to transversions
 
-```
-
-lset nst=2                           
-prset statefreqpr=fixed(equal)
+![alt](/Pics/TLKAPPAMarginalDens-1.jpg)
 
 ```
 
