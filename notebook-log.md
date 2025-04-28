@@ -1036,7 +1036,6 @@ The tracer program can show the marginal densities of the sum of the total lengt
 
 ![alt](/Pics/TLKAPPAMarginalDens-1.jpg)
 
-```
 
 ![alt](/Pics/CC1.png)
 
