@@ -1008,8 +1008,8 @@ begin mrbayes;
 	set autoclose = yes;
 	lset nst = 2;
 	prset statefreqpr = fixed(equal);
-	mcmcp nruns = 1 nchains = 1 printfreq = 100;
-	mcmc ngen=20000 samplefreq=100;
+	mcmcp nruns = 3 nchains = 1 printfreq = 100;
+	mcmc ngen=200000 samplefreq=100;
 END;
 
 ```
@@ -1021,6 +1021,7 @@ mb execute Bombus_output.nexus
 
 ```
 
+Running 3 MCMC chains this shows the trace plots of the MCMC chain and reveals a type of convergence.
 Run Tracer program on .p file output
 
 ```
@@ -1028,7 +1029,7 @@ tracer
 ```
 
 
-![alt](/Pics/Tracer-1.png)
+![alt](/Pics/3MCMC-1.jpg)
 
 
 Choose K2P model
