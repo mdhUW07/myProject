@@ -1007,6 +1007,8 @@ END;
 begin mrbayes;
 	lset nst = 2
 	prset statefreqpr=fixed(equal)
+	mcmcp nruns=1 nchains=1 printfreq=100;
+	mcmc ngen=20000 samplefreq=100;
 END;
 
 ```
