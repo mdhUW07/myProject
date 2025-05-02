@@ -648,7 +648,7 @@ BIC       model              K            lnL          score          delta    w
        1  TIM3+I             7      -892.6505      3230.1662         0.0000    0.6042
        2  TPM3uf+I           6      -896.3858      3231.7152         1.5491    0.2785
        3  TIM3+I+G4          8      -891.8905      3234.5676         4.4015    0.0669
-       4  GTR+I              9      -889.9605      3236.6293         6.4632    0.0239
+*       4  GTR+I              9      -889.9605      3236.6293         6.4632    0.0239
        5  TIM3+G4            7      -896.1957      3237.2565         7.0903    0.0174
        6  TVM+I              8      -894.7851      3240.3568        10.1907    0.0037
        7  TPM3uf+G4          6      -901.1062      3241.1559        10.9897    0.0025
@@ -1109,4 +1109,84 @@ The tracer program can show the marginal densities of the sum of the total lengt
 Estimated Parameter Statistics with 95% confidence intervals and effective samples sizes
 
 ![alt](/Pics/95HPD.png)
+
+I also choose to fit a GTR + I general time reversal evolutionary model with invariable sites. The invariable sites assumption means there are particular sites in the sequenece that do not change.
+
+```
+
+showmodel
+
+   Model settings:
+
+      Data not partitioned --
+         Datatype  = DNA
+         Nucmodel  = 4by4
+         Nst       = 6
+                     Substitution rates, expressed as proportions
+                     of the rate sum, have a Dirichlet prior
+                     (1.00,1.00,1.00,1.00,1.00,1.00)
+         Covarion  = No
+         # States  = 4
+                     State frequencies have a Dirichlet prior
+                     (1.00,1.00,1.00,1.00)
+         Rates     = Propinv
+                     Proportion of invariable sites is uniformly dist-
+                     ributed on the interval (0.00,1.00).
+
+   Active parameters: 
+
+      Parameters
+      ---------------------
+      Revmat              1
+      Statefreq           2
+      Pinvar              3
+      Ratemultiplier      4
+      Topology            5
+      Brlens              6
+      ---------------------
+
+      1 --  Parameter  = Revmat
+            Type       = Rates of reversible rate matrix
+            Prior      = Dirichlet(1.00,1.00,1.00,1.00,1.00,1.00)
+
+      2 --  Parameter  = Pi
+            Type       = Stationary state frequencies
+            Prior      = Dirichlet
+
+      3 --  Parameter  = Pinvar
+            Type       = Proportion of invariable sites
+            Prior      = Uniform(0.00,1.00)
+
+      4 --  Parameter  = Ratemultiplier
+            Type       = Partition-specific rate multiplier
+            Prior      = Fixed(1.0)
+
+      5 --  Parameter  = Tau
+            Type       = Topology
+            Prior      = All topologies equally probable a priori
+            Subparam.  = V
+
+      6 --  Parameter  = V
+            Type       = Branch lengths
+            Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+```
+The transition and transversion substition rate posterior distribution for 1 MCMC run.
+
+![alt](/Pics/SubstitutionDensities-1.jpg) 
+
+The steady state Nucleotide rates for 1 MCMC run.
+
+![alt](/Pics/SteadyStateNucleotidesRates-1.jpg)
+
+The proporiton of invariant sites posterior distribution having a uniform prior.
+
+![alt](/Pics/PropInvSites-1.jpg)
+
+The joint marginal posterior distrubtion sum of tree lengths for all 3 MCMC runs.
+
+![alt](/Pics/JointTreeLengths-1.jpg)
+
+The joint marginal posterior distribution of log likelihoods for all 3 MCMC.
+
+![alt](/Pics/JointLogLik-1.jpg)
 
