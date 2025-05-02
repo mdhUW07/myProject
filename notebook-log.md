@@ -1013,6 +1013,65 @@ begin mrbayes;
 END;
 
 ```
+
+If you read the data matrix in first you can see the current model parameter settings.
+
+```
+
+showmodel
+
+showmodel
+
+   Model settings:
+
+      Data not partitioned --
+         Datatype  = DNA
+         Nucmodel  = 4by4
+         Nst       = 2
+                     Transition and transversion  rates, expressed
+                     as proportions of the rate sum, have a
+                     Beta(1.00,1.00) prior
+         Covarion  = No
+         # States  = 4
+                     State frequencies are fixed to be equal
+         Rates     = Equal
+
+   Active parameters: 
+
+      Parameters
+      ---------------------
+      Tratio              1
+      Statefreq           2
+      Ratemultiplier      3
+      Topology            4
+      Brlens              5
+      ---------------------
+
+      1 --  Parameter  = Tratio
+            Type       = Transition and transversion rates
+            Prior      = Beta(1.00,1.00)
+
+      2 --  Parameter  = Pi
+            Type       = Stationary state frequencies
+            Prior      = Fixed
+
+      3 --  Parameter  = Ratemultiplier
+            Type       = Partition-specific rate multiplier
+            Prior      = Fixed(1.0)
+
+      4 --  Parameter  = Tau
+            Type       = Topology
+            Prior      = All topologies equally probable a priori
+            Subparam.  = V
+
+      5 --  Parameter  = V
+            Type       = Branch lengths
+            Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+
+```
+
+
+
 Initialize MrBayes and execute the nexus file
 
 ```
