@@ -1112,6 +1112,17 @@ Estimated Parameter Statistics with 95% confidence intervals and effective sampl
 
 I also choose to fit a GTR + I general time reversal evolutionary model with invariable sites. The invariable sites assumption means there are particular sites in the sequenece that do not change.
 
+
+
+```
+
+lset nst = 6 rate = propinv
+mcmcp nruns = 3 nchains = 1 printfreq = 100
+mcmc ngen=2000000 samplefreq=100
+
+
+```
+
 ```
 
 showmodel
